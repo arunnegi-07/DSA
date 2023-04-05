@@ -6,19 +6,19 @@ Give a N*M grid of characters 'O', 'X', and 'Y'. Find the minimum Manhattan dist
 | row_index_x - row_index_y | + | column_index_x - column_index_y |
 
 ```
-**Example 1:**
+Example 1:
 
-**Input:**
+Input:
 N = 4, M = 4
 grid  = {{X, O, O, O}
          {O, Y, O, Y}
          {X, X, O, O}
          {O, Y, O, O}}  
 
-**Output:**
+Output:
 1
 
-**Explanation:**
+Explanation:
 {{X, O, O, O}
 {O, Y, O, Y}
 {X, X, O, O}
@@ -30,18 +30,18 @@ in the above grid.
 ```
 
 ```
-**Example 2:**
+Example 2:
 
-**Input:**
+Input:
 N = 3, M = 3
 grid = {{X, X, O}
         {O, O, Y}
         {Y, O, O}}
 
-**Output:**
+Output:
 2
 
-**Explanation:**
+Explanation:
 {{X, X, O}
  {O, O, Y}
  {Y, O, O}}
@@ -51,12 +51,12 @@ in the above grid.
 
 ```
 ```
-**Expected Time Complexity:** O(N*M)
-**Expected Auxiliary Space:** O(N*M)
+Expected Time Complexity: O(N*M)
+Expected Auxiliary Space: O(N*M)
 
 ```
 ```
-**Constraints:**
+Constraints:
 1 ≤ N*M ≤ 10<sup>5</sup> 
 
 There exists at least one 'X' and at least one 'Y' in the grid.
