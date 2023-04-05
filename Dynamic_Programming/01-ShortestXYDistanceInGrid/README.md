@@ -57,7 +57,7 @@ Expected Auxiliary Space: O(N*M)
 ```
 ```
 Constraints:
-1 ≤ N*M ≤ 10<sup>5</sup> 
+1 ≤ N*M ≤ 10^5
 
 There exists at least one 'X' and at least one 'Y' in the grid.
 
