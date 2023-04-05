@@ -30,9 +30,11 @@ in the above grid.
 
 **Input:**
 N = 3, M = 3
+```
 grid = {{X, X, O}
         {O, O, Y}
         {Y, O, O}}
+```
 
 **Output:**
 2
