@@ -38,6 +38,7 @@ Therefore, the minimum number of operations required
 is 3.
 
 ```
+```
 Expected Time Complexity: O(N), where N = length of string str
 Expected Space Complexity: O(1)
 
