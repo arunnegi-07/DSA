@@ -12,9 +12,11 @@ N = 4, M = 4
 grid  = {{X, O, O, O}
          {O, Y, O, Y}
          {X, X, O, O}
-         {O, Y, O, O}}
+         {O, Y, O, O}}  
+
 **Output:**
 1
+
 **Explanation:**
 {{X, O, O, O}
 {O, Y, O, Y}
@@ -31,8 +33,10 @@ N = 3, M = 3
 grid = {{X, X, O}
         {O, O, Y}
         {Y, O, O}}
+
 **Output:**
 2
+
 **Explanation:**
 {{X, X, O}
  {O, O, Y}
@@ -42,6 +46,7 @@ One possible such X and Y are marked in bold
 in the above grid.
 
 **Expected Time Complexity:** O(N*M)
+
 **Expected Auxiliary Space:** O(N*M)
 
 **Constraints:**
