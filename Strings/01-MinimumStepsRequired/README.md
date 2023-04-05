@@ -20,6 +20,8 @@ Therefore, the minimum number of operations required
 is 2.
 
 ```
+
+```
 Example 2:
 
 Input:
