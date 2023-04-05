@@ -26,7 +26,6 @@ Explanation:
 The shortest X-Y distance in the grid is 1.
 One possible such X and Y are marked in bold
 in the above grid.
-
 ```
 
 ```
@@ -48,17 +47,14 @@ Explanation:
 The shortest X-Y distance in the grid is 2.
 One possible such X and Y are marked in bold
 in the above grid.
-
 ```
 ```
 Expected Time Complexity: O(N*M)
 Expected Auxiliary Space: O(N*M)
-
 ```
 ```
 Constraints:
 1 ≤ N*M ≤ 10^5
 
 There exists at least one 'X' and at least one 'Y' in the grid.
-
 ```

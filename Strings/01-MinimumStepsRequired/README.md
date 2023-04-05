@@ -18,7 +18,6 @@ Operation 2: Removal of all remaining b's makes str
 empty.
 Therefore, the minimum number of operations required
 is 2.
-
 ```
 
 ```
@@ -38,16 +37,13 @@ Operation 3: Removal of all remaining a's makes str
 empty.
 Therefore, the minimum number of operations required 
 is 3.
-
 ```
 ```
 Expected Time Complexity: O(N), where N = length of string str
 Expected Space Complexity: O(1)
-
 ```
 ```
 Constraints:
 1 <= str.length() <= 105
 'a' <= str[i] <= 'b' 
-
 ```
