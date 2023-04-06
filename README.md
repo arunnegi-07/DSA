@@ -1,4 +1,4 @@
-# DSA
+## DSA
 Topic-wise DSA Problems using C++
 In this DSA Repository I have uploaded Topic Wise DSA Problems with different approaches possible starting from Brute Force to Optimized one.
 
