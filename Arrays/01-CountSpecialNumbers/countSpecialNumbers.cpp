@@ -4,6 +4,7 @@ using namespace std;
 // Approach 1 : Brute Force 
 // TC : O(N^2)  SC : O(1)
 
+```
 // Function to calculate the count of special numbers
 int countSpecialNumbers(int N, vector<int> arr){
     int ans = 0;
@@ -25,7 +26,7 @@ int countSpecialNumbers(int N, vector<int> arr){
     // Return the ans of special numbers
     return ans;
 }
-
+```
 // Approach 2 : Using HashMap, Set and Sieve
 // TC : O(N*M)  SC : O(N)
 
