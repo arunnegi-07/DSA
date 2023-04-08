@@ -43,7 +43,7 @@ You need to complete the function minSteps() which takes a string str as the onl
 denoting the minimum steps required to make the string empty.
 ```
 
-**Expected Time Complexity:** ```O(N), where N = length of string str```
+**Expected Time Complexity:** ```O(N), where N = length of string str```<br>
 **Expected Space Complexity:** ```O(1)```
 
 **Constraints:**

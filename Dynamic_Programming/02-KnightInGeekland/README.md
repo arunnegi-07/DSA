@@ -9,7 +9,7 @@ step he can fetch all the coins that he will collect in the ```(x + y)th``` step
 step he can fetch all the coins that he will collect in the ```(y + z)th``` step and so on without increasing the step count i.e. knight will
 stay on xth step and will get all the coins of the future steps mentioned above ```((x + y)th step coins + (y+z)th steps + ...)```.
 
-**Find the minimum number of steps required to collect the maximum points.**
+**Find the minimum number of steps required to collect the maximum points.**<br>
 **Note:** The knight moves exactly the same as the knight on a chess board. Please follow 0 indexing.
 
 **Example 1:**
