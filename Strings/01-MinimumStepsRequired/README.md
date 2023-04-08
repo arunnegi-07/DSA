@@ -1,11 +1,10 @@
-## Problem : Minimum Steps Required
+## Problem : Minimum Steps Required (Medium)
 
-Given a string str consisting of only two characters 'a' and 'b'. You need to find the minimum steps required to make the string empty by removing consecutive
-a's and b's.
+Given a string str consisting of only two characters ```a``` and ```b```. 
+You need to find the **minimum steps required** to make the **string empty** by removing consecutive ```a's``` and ```b's```.
 
+**Example 1:**
 ```
-Example 1:
-
 Input:
 str = "bbaaabb"
 
@@ -20,9 +19,8 @@ Therefore, the minimum number of operations required
 is 2.
 ```
 
+**Example 2:**
 ```
-Example 2:
-
 Input:
 
 str = "aababaa"
@@ -38,12 +36,18 @@ empty.
 Therefore, the minimum number of operations required 
 is 3.
 ```
+
+**Your Task:**
 ```
-Expected Time Complexity: O(N), where N = length of string str
-Expected Space Complexity: O(1)
+You need to complete the function minSteps() which takes a string str as the only input parameter and returns an integer,
+denoting the minimum steps required to make the string empty.
 ```
-```
-Constraints:
-1 <= str.length() <= 105
-'a' <= str[i] <= 'b' 
-```
+
+**Expected Time Complexity:** ```O(N), where N = length of string str```
+**Expected Space Complexity:** ```O(1)```
+
+**Constraints:**
+<ul>
+<li><code>1 <= str.length() <= 10<sup>5</sup></code></li>
+<li><code>'a' <= str[i] <= 'b'</code></li>
+</ul>

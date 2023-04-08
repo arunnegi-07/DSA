@@ -1,13 +1,12 @@
-# Problem : Shortest XY distance in Grid
+# Problem : Shortest XY distance in Grid (Medium)
 
-Give a N*M grid of characters 'O', 'X', and 'Y'. Find the minimum Manhattan distance between a X and a Y.
+Give a ```N*M``` grid of characters ```'O'```, ```'X'```, and ```'Y'```. Find the minimum **Manhattan distance** between a ```X``` and a ```Y```.
 
 **Manhattan Distance :**
-| row_index_x - row_index_y | + | column_index_x - column_index_y |
+```| row_index_x - row_index_y | + | column_index_x - column_index_y |```
 
+**Example 1:**
 ```
-Example 1:
-
 Input:
 N = 4, M = 4
 grid  = {{X, O, O, O}
@@ -28,9 +27,8 @@ One possible such X and Y are marked in bold
 in the above grid.
 ```
 
+**Example 2:**
 ```
-Example 2:
-
 Input:
 N = 3, M = 3
 grid = {{X, X, O}
@@ -48,13 +46,13 @@ The shortest X-Y distance in the grid is 2.
 One possible such X and Y are marked in bold
 in the above grid.
 ```
-```
-Expected Time Complexity: O(N*M)
-Expected Auxiliary Space: O(N*M)
-```
-```
-Constraints:
-1 ≤ N*M ≤ 10^5
 
-There exists at least one 'X' and at least one 'Y' in the grid.
-```
+**Expected Time Complexity:** ```O(N*M)```<br>
+**Expected Auxiliary Space:** ```O(N*M)```
+
+**Constraints:**
+<ul>
+<li><code>1 ≤ N*M ≤ 10<sup>5</sup></code></li>
+<li><code>There exists at least one 'X' and at least one 'Y' in the grid.</code></li>
+</ul>
+
