@@ -35,8 +35,8 @@ the answer is 4 in this case.
 
 <strong>Your Task:</strong>
 ```
-You don't need to read input or print anything. Complete the function countSpecialNumbers() which takes the integer N and the array arr[] 
-as the input parameters, and returns the count of special numbers in the array. 
+You don't need to read input or print anything. Complete the function countSpecialNumbers() which takes the integer N
+and the array arr[] as the input parameters, and returns the count of special numbers in the array. 
 ```
 
 <strong>Expected Time Complexity:</strong> ```O(N*root(M)) where M = max(arr[i])```<br>

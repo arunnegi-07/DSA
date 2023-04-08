@@ -47,6 +47,12 @@ One possible such X and Y are marked in bold
 in the above grid.
 ```
 
+**Your Task:**
+```  
+You don't need to read input or print anything. Your task is to complete the function shortestXYDist() which takes two 
+integers N, and M and an 2D list of size N*M as input and returns the shortest Manhattan Distance between a X and a Y.
+```
+
 **Expected Time Complexity:** ```O(N*M)```<br>
 **Expected Auxiliary Space:** ```O(N*M)```
 
