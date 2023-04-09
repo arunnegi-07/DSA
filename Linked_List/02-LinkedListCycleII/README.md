@@ -46,7 +46,7 @@ Explanation: There is no cycle in the linked list.
 
 **Constraints:**
 <ul>
-<li>The number of the nodes in the list is in the range<code>[0, 104]</code>.</li>
+<li>The number of the nodes in the list is in the range <code>[0, 104]</code>.</li>
 <li><code>-10<sup>5</sup> <= Node.val <= 10<sup>5</sup></code></li>
 <li><code>pos</code>is<code>-1</code>or a <b>valid index</b> in the linked-list.</li>
 </ul>
