@@ -25,7 +25,7 @@ using namespace std;
 // Approach 1: Brute Force:
 // TC: O(N^2)  SC: O(N)
 
-function to get the distinct difference between pairs of elements in an array
+//function to get the distinct difference between pairs of elements in an array
 vector<int> getDistinctDifference(int n, int A[]) {
     // create an empty vector to store the results
     vector<int> ans;
