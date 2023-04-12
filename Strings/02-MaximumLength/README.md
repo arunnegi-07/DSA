@@ -4,7 +4,7 @@ Given the maximum occurrences of ```a```, ```b```, and ```c``` in a string. Your
 a, b, and c such that no three consecutive characters are the same. If the resultant string equals to ```a+b+c```, return the length 
 ```(a+b+c)``` otherwise ```-1```.
 
-***Example 1:**
+**Example 1:**
 ```
 Input:
 a = 3, b = 3, c = 3
@@ -37,7 +37,7 @@ there is no solution exist.
 You don't need to read input or print anything. Your task is to complete the function solve( ) which takes integers 
 a, b, and c as input parameters and returns the string length. If there is no possible answer return -1.
 ```
-**Expected Time Complexity:** ```O(a+b+c)```
+**Expected Time Complexity:** ```O(a+b+c)```<br>
 **Expected Auxiliary Space:** ```O(1)```
 
 **Constraints:**
