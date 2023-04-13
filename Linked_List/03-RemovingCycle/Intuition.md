@@ -6,7 +6,7 @@
 
 So Intuition to this Problem is divided into two parts:
 1. Is to check if Cycle Exists or not, As question is of removing the cycle so definitely cycle will be present.
-   but we are doing it because it is the part of the solution and while doing so we placing ```slow``` and ```fast`` 
+   but we are doing it because it is the part of the solution and while doing so we placing ```slow``` and ```fast``` 
    pointers where we want them to be (we will see that where we place them when we discuss the Intuition).
 
    so, if both slow and fast pointers meet at some point we will break of loop and which indicates (i.e slow == fast)
@@ -17,7 +17,7 @@ So Intuition to this Problem is divided into two parts:
 Only two type of cases are present which we need to handle all the cases.<br><br>
 **Let us see them one by one :**<br>
 
-**Example 1:** <br>
+**Example 1:**
     Step 1:
          s,f  
           3 --> 2 --> 0 --> -4 ---     
@@ -65,7 +65,7 @@ Only two type of cases are present which we need to handle all the cases.<br><br
 #### Now, Let's take another Case:
         
 **Example 2:**<br>
-    This is the Case when loop is starting from 'head' itself and we will see what problem will come if you apply the same approach as 
+    This is the Case when loop is starting from ```head``` itself and we will see what problem will come if we apply the same approach as 
     above here and then we will see what to add in our code in order to handle this case.
 
     Step 1:
@@ -118,9 +118,9 @@ Only two type of cases are present which we need to handle all the cases.<br><br
   **2.** Now, move ```slow ``` by one step and ```fast``` by two step until both meet at some point.<br>
   <!-- &emsp;&emsp;&emsp;**2.a**  **if** possible then return ```a + b + c```.<br>
   &emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;**else** return ```-1```<br><br> -->
-  **3.** set ```slow``` to ```head```<br>
+  **3.** set ```slow``` to ```head```.<br>
   &emsp;&emsp;&emsp;**3.a** Now, first check **if** ```slow == head``` which signifies cycle is end-to-end<br>
   &emsp;&emsp;&emsp;&emsp;&emsp;  then and we will do same as we have discussed in example 2.<br>
   &emsp;&emsp;&emsp;**3.b** **else** we will move both ```slow``` and ```fast``` one step at a time until<br>
-  &emsp;&emsp;&emsp;&emsp;&emsp;    ```fast -> next != slow -> next```.<br>
-  **3.** Set ```fast -> next = NULL```<br>
+  &emsp;&emsp;&emsp;&emsp;&emsp;    ```fast -> next != slow -> next```.<br><br>
+  **4.** Set ```fast -> next = NULL```<br>

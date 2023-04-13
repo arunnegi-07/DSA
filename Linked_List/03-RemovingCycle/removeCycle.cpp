@@ -23,6 +23,7 @@ void addNode(int val,Node* &tail){
      tail = tail -> next;
 }
 
+// TC : O(N)  SC : O(1)
 void removeLoop(Node* &head)
 {    
     // This Part will detect if cycle is present as well as sets the slow and fast pointer to desired positions.
