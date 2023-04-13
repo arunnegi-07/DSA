@@ -65,6 +65,7 @@ Only two type of cases are present which we need to handle all the cases.<br><br
 #### Now, Let's take another Case:
         
 **Example 2:**<br>
+
     This is the Case when loop is starting from ```head``` itself and we will see what problem will come if we apply the same approach as 
     above here and then we will see what to add in our code in order to handle this case.
 
