@@ -43,15 +43,15 @@ Only two type of cases are present which we need to handle all the cases.<br><br
         Let's first apply this in above list and then see what's going on :
 
         so, as soon as we set our 'slow' pointer to 'head' and apply while loop to move both pointers one by one till above
-        mentioned condition becomes 'false', you can clearly see in below diagram, that condition become false in starting itself
-        as fast -> next become equal to slow -> next.
+        mentioned condition becomes 'false', you can clearly see in below diagram, that condition become false in starting 
+        itself as fast -> next become equal to slow -> next.
 
           s                  f                            
           3 --> 2 --> 0 --> -4 ---     
                 |________________|
         
-        This indicates that 'slow' pointer is at the point after which cycle is starting so to remove cycle after coming out of the loop
-        we just have to add fast -> next = NULL and cycle is removed.
+        This indicates that 'slow' pointer is at the point after which cycle is starting so to remove cycle after coming out
+        of the loop we just have to add fast -> next = NULL and cycle is removed.
         Now, final List will look like:
         
           s                  f                            
@@ -65,8 +65,7 @@ Only two type of cases are present which we need to handle all the cases.<br><br
 
 #### Now, Let's take another Case:
         
-**Example 2:**<br>
-
+**Example 2:**
     This is the Case when loop is starting from ```head``` itself and we will see what problem will come if we apply the same approach as 
     above here and then we will see what to add in our code in order to handle this case.
 
