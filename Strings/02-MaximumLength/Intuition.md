@@ -1,4 +1,5 @@
 ## Intuition :
+**Time Complexity : O(1)  and Space Complexity : O(1)**<br><br>
 **Read this till end you definitely going to get the intuition of the Best Approach.**
 
 As no 3 consecutive characters should be same so we will take 2 characters at a time,
@@ -7,7 +8,7 @@ so we will choose the character with highest occurence and reason for doing so i
 has the high possibility of having 3 consecutive occurence, and then we will add other two characters (b and c, if a is having 
 highest count) between that character.
 
-Let us take few example how to do so:<br>
+**Let us take few example how to do so:**<br>
 
 **Example 1:** <br>
     ```a = 11```, ```b = 2```, ```c = 2```<br>
@@ -53,12 +54,13 @@ Let us take few example how to do so:<br>
         so, we have to check accordingly.
         
 **Overall Conclusion:**<br>
-  **1.** First just find max value among a, b, and c and that value will be contender of giving 3 consecutive characters.<br>
+  **1.** First just find max value among a, b, and c and that value will be contender of giving 3 consecutive characters.<br><br>
   **2.** Now, we just have to check if valid string is possible or not.<br>
-         **2.a** if possible then return **a + b + c**.<br>
-                 else return -1<br>
+  &emsp;&emsp;&emsp;**2.a**  **if** possible then return ```a + b + c```.<br>
+  &emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;**else** return ```-1```<br><br>
   **3.** To check whether string is possible or not:<br>
-        **3.a** for **even** max_count check  --> if(remSum >= max_count/2-1)<br>
-            where, **remSum** is 'b+c' (if 'a' is having max_count) and vice-versa<br>
-        **3.b** for **odd** max_count check  --> if(remSum >= max_count/2)<br>
+  &emsp;&emsp;&emsp;**3.a**  for **even** max_count check  --> **if**(```remSum``` >=``` max_count```/2-1)<br>
+  &emsp;&emsp;&emsp;&emsp;&emsp;where, ```remSum``` is **'b+c'** (Let's say **'a'** is having ```max_count``` among all)<br><br>
+  &emsp;&emsp;&emsp;**3.b**  for **odd** ```max_count``` check  --> if(```remSum``` >= ```max_count```/2)<br><br>
+  
 so, this problem is just about checking whether such string exists or not.
