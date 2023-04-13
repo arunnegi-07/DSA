@@ -18,6 +18,7 @@ Only two type of cases are present which we need to handle all the cases.<br><br
 **Let us see them one by one :**<br>
 
 **Example 1:**
+
     Step 1:
          s,f  
           3 --> 2 --> 0 --> -4 ---     
