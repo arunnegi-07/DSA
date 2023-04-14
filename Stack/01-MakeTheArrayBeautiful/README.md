@@ -37,7 +37,7 @@ You don't need to read input or print anything. Your task is to complete the fun
 which takes an array as an input parameter and returns an array.
 ```
 
-**Expected Time Complexity:** ```O(N)```
+**Expected Time Complexity:** ```O(N)```<br>
 **Expected Space Complexity:** ```O(N)```
 
 **Constraints:**
