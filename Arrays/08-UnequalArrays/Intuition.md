@@ -13,6 +13,7 @@ So Intuition to this Problem is divided into two parts:
    else we will return -1.<br><br>
 
 **Some Observations required to get the Intuition of the problem :**
+```
 1. As only operations we can perform are either +2 or -2, so it is clear that we can only able to convert 
    an odd number to odd number and an even to even.
 
@@ -50,8 +51,8 @@ So Intuition to this Problem is divided into two parts:
 
                Therefore, answer is '-1'.    
     
-    4.b As odd is convertable to odd and even to even only so inorder to make array equal "Count of Odd and Even elements in both 'A'
-        and 'B' should be equal"
+    4.b As odd is convertable to odd and even to even only so inorder to make array equal "Count of Odd and Even elements in
+      both 'A' and 'B' should be equal"
 
 5. This Observation is very Important to make this Problem simple and find minimum operation required:
      Ex : A[] = {1,7}
@@ -63,7 +64,8 @@ So Intuition to this Problem is divided into two parts:
           so, for 1 : 1 + 2 = 3 --> 3 + 2 = 5
               for 7 : 7 - 2 = 5 --> 5 - 2 = 3
 
-          so, A[] become : {5, 3} and operation needed are '2' because as already discussed one +2 and one -2 is considered as sigle.
+          so, A[] become : {5, 3} and operation needed are '2' because as already discussed one +2 and one -2 is considered as 
+          single.
 
           But is it Minimum one ? Let us see taking another way.
          
@@ -84,6 +86,7 @@ So Intuition to this Problem is divided into two parts:
           and you can clearly see both 'A' and 'B' are sorted. 
 
 so keep all this observations in mind while we discuss one example to connect all these together.
+```
 
 **Let us see an Example to make it more clear:**<br>
 
@@ -142,4 +145,24 @@ so keep all this observations in mind while we discuss one example to connect al
                 Therefore Final answer ---> ans/2. 
                   
                  
-Now, Just apply these 5 steps taking 2-3 examples to make this Intuition more clear.
+Now, Just apply these 5 steps on 2-3 examples to make this Intuition more clear.
+
+**Overall Conclusion:**<br>
+**1.** Sort both Arrays 'A' and 'B' because to get minimum no. of operations we must apply given operations<br>
+&emsp;&emsp;&emsp; on elements which are nearer to each other so Arrays are Sorted it will help.
+**2.** Now, calculate total Sum and No. of Odd and Even elements in both 'A' and 'B'.
+**3.** Now, check if it is possible to make both Arrays equal or not for that:<br>
+&emsp;&emsp;&emsp;**3.a** First check if sum of both Arrays are equal or not.<br>
+&emsp;&emsp;&emsp;**3.b** if Sum is equal check if both Arrays contain equal even and odd elements or not because as only<br>
+&emsp;&emsp;&emsp;&emsp;  operation allowed is +2 and -2, so odds are only converted to odd and even to even.
+**4.** If it is possible then calulate no. of minimum operations needed make 'A' and 'B' equal:<br>
+&emsp;&emsp;&emsp;**4.a** For that just traverse over 'A' and 'B' for both 'odd' and 'even' elements separately which we have<br>
+&emsp;&emsp;&emsp;&emsp;  calculated in step 2.
+&emsp;&emsp;&emsp;**4.b** for just do, ans += abs(Aodds[i] - Bodds[i])/2 (for odds), and<br>
+&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;  ans += abs(Aevens[i] - Bevens[i])/2 (for evens). 
+**Note** Here, we are doing divide by 2 because to change let's say 5 to 9 we have to add '2' two times so no. of operations should
+&emsp;&emsp; be 2 but if we do abs(5-9) = 4 beacause doing like this means we are adding '1' at a time, so to get correct operatios just
+&emsp;&emsp; divide it by '2'. 
+**5.** At the End, after calculating for both even and odd:<br>
+&emsp;&emsp; Now, as questions says doing +2 and -2 for particular i and j will be considered as single operation so to get correct no. of
+&emsp;&emsp; operations we have to further divide our calculated operations by '2' to get the correct answer.

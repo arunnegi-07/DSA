@@ -3,8 +3,8 @@
 You are given two arrays ```A``` and ```B``` each of length ```N```.<br><br>
 You can perform the following operation on array ```A``` zero or more times. 
 <ul>
-<li><code>Select any two indices <b>i<b> and <b>j<b>, <b>1 <= i<b> , <b>j <= N<b> and <b>i != j<b></code></li>
-<li><code>Set <b>A[i] = A[i] + 2<b> and <b>A[j] = A[j]-2<b></code></li>
+<li>Select any two indices <b>i</b> and <b>j</b>, <b>1 <= i</b> , <b>j <= N</b> and <b>i != j</b>.</li>
+<li>Set <b>A[i] = A[i] + 2</b> and <b>A[j] = A[j]-2</b></li>
 </ul>
 <br>
 
@@ -12,8 +12,8 @@ Find the **minimum** number of operations required to make A and B **equal**.
 
 **Note:**
 <ul>
-<li><code>Two arrays are said to be equal if the frequency of each element is equal in both of them.</code></li>
-<li><code>Arrays may contain duplicate elements.</code></li>
+<li>Two arrays are said to be equal if the frequency of each element is equal in both of them.</li>
+<li>Arrays may contain duplicate elements.</li>
 </ul>
 
 **Example 1:**
