@@ -4,7 +4,10 @@
 
 **Approach : Sorting and Logical Thinking**
 
-**Note:** Before Reading the Intuition read the problem statement carefully and try to understand as much as you can.
+**Before Reading the Intuition read the problem statement carefully and try to understand as much as you can.**
+
+**Note:** If you only wanted little hint and and don't want in-depth explaination of Intuition just refer to<br>
+          **Overall Conclusion** section at the end.
 
 So Intuition to this Problem is divided into two parts:
 1. First we will find out if it is possible to make both given Arrays equal or not. 
@@ -148,21 +151,22 @@ so keep all this observations in mind while we discuss one example to connect al
 Now, Just apply these 5 steps on 2-3 examples to make this Intuition more clear.
 
 **Overall Conclusion:**<br>
-**1.** Sort both Arrays 'A' and 'B' because to get minimum no. of operations we must apply given operations<br>
-&emsp;&emsp;&emsp; on elements which are nearer to each other so Arrays are Sorted it will help.
-**2.** Now, calculate total Sum and No. of Odd and Even elements in both 'A' and 'B'.
+**1.** Sort both Arrays ```A``` and ```B``` because to get minimum no. of operations we must apply given operations<br>
+&emsp;on elements which are nearer to each other so Arrays are Sorted it will help.<br>
+**2.** Now, calculate total Sum and No. of Odd and Even elements in both ``A`` and ```B``` i.e ```Asum```, ```Bsum```, ```Aodds```, ```Aevens```, ```Bodds``` and ```Bevens```<br>
+&emsp;&emsp;Here, ```Aodds```, ```Aevens```, ```Bodds``` and ```Bevens``` are arrays storing even and odd elements of ```A``` and ```B``` in Sorted order.<br>
 **3.** Now, check if it is possible to make both Arrays equal or not for that:<br>
 &emsp;&emsp;&emsp;**3.a** First check if sum of both Arrays are equal or not.<br>
-&emsp;&emsp;&emsp;**3.b** if Sum is equal check if both Arrays contain equal even and odd elements or not because as only<br>
-&emsp;&emsp;&emsp;&emsp;  operation allowed is +2 and -2, so odds are only converted to odd and even to even.
-**4.** If it is possible then calulate no. of minimum operations needed make 'A' and 'B' equal:<br>
-&emsp;&emsp;&emsp;**4.a** For that just traverse over 'A' and 'B' for both 'odd' and 'even' elements separately which we have<br>
-&emsp;&emsp;&emsp;&emsp;  calculated in step 2.
-&emsp;&emsp;&emsp;**4.b** for just do, ans += abs(Aodds[i] - Bodds[i])/2 (for odds), and<br>
-&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;  ans += abs(Aevens[i] - Bevens[i])/2 (for evens). 
-**Note** Here, we are doing divide by 2 because to change let's say 5 to 9 we have to add '2' two times so no. of operations should
-&emsp;&emsp; be 2 but if we do abs(5-9) = 4 beacause doing like this means we are adding '1' at a time, so to get correct operatios just
-&emsp;&emsp; divide it by '2'. 
+&emsp;&emsp;&emsp;**3.b** if **Sum is equal** check if both Arrays contain **equal even and odd elements** or not because as only<br>
+&emsp;&emsp;&emsp;&emsp;  operation allowed is +2 and -2, so **odds are only converted to odd and even to even**.<br>
+**4.** If it is possible then calulate no. of minimum operations needed make ```A``` and ```B``` equal:<br>
+&emsp;&emsp;&emsp;**4.a** For that just traverse over ```A``` and ```B``` for both 'odd' and 'even' elements separately which we have<br>
+&emsp;&emsp;&emsp;&emsp;  calculated in step 2.<br>
+&emsp;&emsp;&emsp;**4.b** for just do, ```ans += abs(Aodds[i] - Bodds[i])/2``` (for odds), and<br>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  ```ans += abs(Aevens[i] - Bevens[i])/2``` (for evens).<br>
+**Note:** Here, we are doing divide by 2 because to change, let's say 5 to 9 we have to add '2' two times so no. of operations should<br>
+&emsp;&emsp;be 2 but if we do abs(5-9) = 4 beacause doing like this means we are adding '1' at a time, so to get correct operatios just<br>
+&emsp;&emsp;divide it by '2'.<br>
 **5.** At the End, after calculating for both even and odd:<br>
-&emsp;&emsp; Now, as questions says doing +2 and -2 for particular i and j will be considered as single operation so to get correct no. of
+&emsp;&emsp; Now, as questions says doing +2 and -2 for particular i and j will be considered as single operation so to get correct no. of<br>
 &emsp;&emsp; operations we have to further divide our calculated operations by '2' to get the correct answer.
