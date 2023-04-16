@@ -8,7 +8,7 @@ just generate some formula in which just by putting value of ```N``` given to us
 
 
 **Before discussing the approach let us see few observations:**
-
+```
 1. For N=1:
     Here, Array will be {1} so it is already equal.
     
@@ -63,7 +63,8 @@ just generate some formula in which just by putting value of ```N``` given to us
    
     Therefore, Ans : 4
     
-    Note : All these are minimum steps.
+    Note : All these are minimum operations taken.
+```
 
 ```    
 if you observe for every array we are taking every value towards the median i.e
@@ -75,7 +76,7 @@ if you observe for every array we are taking every value towards the median i.e
 ```
 
 **Now, Let us Discuss O(1) Time Complexity Approach:**
-
+```
 We have discussed so much above to get directly to the actual logic behind O(1) approach:
 
 Let us write actual scenario for N = 5 and N = 6 and finally we will derive the formula:
@@ -107,6 +108,7 @@ Let us write actual scenario for N = 5 and N = 6 and finally we will derive the 
             i.e (N/2)^2 --> just replaced N with N/2 in original formula. 
 
 So Just apply single if else statement and get your answer in O(1).
+```
 
-**Note:** As Problem is expecting the answer in 'long long' so while calculating (or) returning the answer typecast
-          it in 'long long' 
+**Note:** As Problem is expecting the answer in 'long long' so while calculating (or) returning the answer don't forgot typecast
+          it in 'long long'.
