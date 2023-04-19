@@ -128,11 +128,10 @@
 
                     Now, increment 'j', but as soon as we increment 'j' condition become 'false' and
                     our process is ended and final value in count variable will be our answer.
- 
-#### So, this is the clear and in-depth explaination of my Intuition behind this Problem. 
+##### So, this is the clear and in-depth explaination of my Intuition behind this Problem. 
         
-**Note:** As we have discussed if we found the dominant pair then for that value of 'arr[j]' all other<br>
-          value of 'arr[i]' from current 'i' are also become valid pairs as they are sorted in ascending order<br>
-          So, for calulating the count of those all ```arr[i]``` use:
-                                             ```count += (n/2 - i)```
-                                         where ```i``` is current position of index 'i'.                          
+**Note:**  As we have discussed if we found the dominant pair then for that value of ```arr[j]``` all other value of ```arr[i]``` from current ```i``` <br>
+&emsp;&emsp;&emsp;are also become valid pairs as they are sorted in ascending order<br>
+&emsp;&emsp;&emsp;So, for calulating the count of those all ```arr[i]``` values use:<br><br>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;```count += (n/2 - i)```<br><br>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;where ```i``` is current position of index 'i'.                          
