@@ -1,4 +1,4 @@
-# Problem : Shortest XY distance in Grid (Medium)
+## Problem : Shortest XY distance in Grid (Medium)
 
 Give a ```N*M``` grid of characters ```'O'```, ```'X'```, and ```'Y'```. Find the minimum **Manhattan distance** between a ```X``` and a ```Y```.
 
