@@ -1,4 +1,4 @@
-## Problem : Remove The Balls
+## Problem : Remove The Balls (Medium)
 
 Imagine an imaginary array of length ```N``` containing balls. Given 2 arrays ```color``` and ```radius``` of length ```N``` each,
 where ```color[i]``` represents the color of the ```ith``` ball while ```radius[i]``` represents the radius of ```ith``` ball. 
