@@ -1,4 +1,4 @@
-## Dominant Pairs 
+## Dominant Pairs (Easy)
 You are given an array of integers of size ```n``` where ```n``` being **even**. You have to calculate the number of **dominate pairs (i,j)** . Where a pair is called dominant if **( 0<=i<n/2, n/2<=j<n, arr[i]>=5*arr[j] )** these relation are fulfilled.<br>  
 For example  in arr=[10,3,3,1] index i=0, j=3 form a dominating pair
 
