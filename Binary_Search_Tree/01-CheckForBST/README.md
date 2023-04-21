@@ -1,6 +1,6 @@
 ## Problem : Check For BST (Easy) 
 
-Given the **root** of a binary tree. Check whether it is a **BST or not**.
+Given the **root** of a binary tree. Check whether it is a **BST or not**.<br><br>
 **Note:** We are considering that BSTs can not contain duplicate Nodes.<br>
 
 A BST is defined as follows:
@@ -14,8 +14,8 @@ A BST is defined as follows:
 ```
 Input:
    2
- /    \
-1      3
+ /   \
+1     3
 
 Output: 1 
 
