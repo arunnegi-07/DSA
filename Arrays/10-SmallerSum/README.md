@@ -1,6 +1,6 @@
 ## Problem : Equal Sum (Medium)
 You are given an array arr of ```n``` integers. For each index ```i```, you have to find the sum of all integers<br>
-present in the array with a value **less** than ```arr[i]``.
+present in the array with a value **less** than ```arr[i]```.
 
 **Example 1:**
 ```
