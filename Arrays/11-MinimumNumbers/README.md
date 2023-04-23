@@ -42,7 +42,7 @@ You don't need to read input or print anything. Your task is to complete the fun
 n and an array arr, as input parameters and returns the maximum number which is minimized after performing operations.
 ```
 
-**Expected Time Complexity:** ```O(nlogn)```<br>
+**Expected Time Complexity:** ```O(n)```<br>
 **Expected Space Complexity:** ```O(1)```
 
 **Constraints:**

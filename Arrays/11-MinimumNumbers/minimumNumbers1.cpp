@@ -1,6 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// Approach 1 : Using concept of GCD 
+// TC : O(NlogN)  SC : O(1)
+
 // Function to find GCD
 int gcd(int a, int b) {
         if (b == 0) {
