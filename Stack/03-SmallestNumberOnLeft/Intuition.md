@@ -4,22 +4,19 @@
 
 **Approach : Using Stack**
 
-**Before Reading the Intuition read the problem statement carefully and try to understand as much as you can.**
+**Note : Before Reading the Intuition read the problem statement carefully and try to understand as much as you can.**
 
-**Some Observations required to get the Intuition of the problem :**
-1. If Stack is 'empty' just 'push' the element inside the array and add '-1' to answer array.
-2. If 'top' of the stack is a 'smaller' element than coming element then definitely for coming 
-   element that 'top' element will be the nearest smaller element  to it's left so add that 
-   'top' element in your 'answer' array and just 'push' that element into the stack.
-3. If 'top' of the stack is 'greater' than coming element then we know that element will never 
-   be the nearest smaller element to it's left so we will 'pop' all the element until we find the
-   value which is less than it (not even equal).
-    3.a If after 'popping' stack become 'empty' than 'push' that element in the stack and add
-        '-1' to the answer array.
-    3.b If some element is left inside the array then value at the 'top' will be the nearest
-        smaller, so add that 'top' value to our answer array and 'push' that coming value into
-        the stack.
-4. Repeat same Steps for all elements from start till last.
+**Some Observations required to get the Intuition of the problem :**<br>
+**1.** If Stack is 'empty' just 'push' the element inside the array and add '-1' to answer array.<br>
+**2.** If 'top' of the stack is a 'smaller' element than coming element then definitely for coming element that 'top'<br> 
+&emsp;element will be the nearest smaller element to it's left so add that 'top' element in your 'answer' array and just<br> 
+&emsp;'push' that element into the stack.<br>
+**3.** If 'top' of the stack is 'greater' than coming element then we know that element will never  be the nearest smaller<br>
+&emsp;element to it's left so we will 'pop' all the element until we find the value which is less than it (not even equal).<br>
+&emsp;&emsp;**3.a** If after 'popping' stack become 'empty' than 'push' that element in the stack and add '-1' to the answer array.<br>
+&emsp;&emsp;**3.b** If some element is left inside the array then value at the 'top' will be the nearest smaller, so add that 'top'<br>
+&emsp;&emsp;&emsp;&emsp;value to our answer array and 'push' that coming value into the stack.<br>
+**4.** Repeat same Steps for all elements from start till last.
 
 **Let me take one Example to make the Intuition clear**<br>
 
@@ -107,8 +104,7 @@
                                    ans = {-1,-1,-1,4,9,-1,4,-1,-1}     ---> Final Answer
 
 
-        If you see the answer array and verify manually the nearest smaller elements to the left from a particular
-        value you will get the same answer.
-
-        So, run this for random sample arrays and you will get the Intuition Better.                           
-                                                                                  
+                              
+**If you see the answer array and verify manually the nearest smaller elements to the left from a particular
+        value you will get the same answer.**<br>
+**So, run this for random sample arrays and you will get the Intuition Better.**                                                                            
