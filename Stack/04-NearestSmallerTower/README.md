@@ -4,7 +4,7 @@ shorter than it. You can look left or right on both sides.
 
 **Note:** 
 <li>If two smaller towers are at the same distance, pick the smallest tower.</li>
-<li>If two towers have the same height then we choose the one with a smaller index.</li>
+<li>If two towers have the same height then we choose the one with a smaller index.</li><br>
 
 **Example 1:**
 ```
