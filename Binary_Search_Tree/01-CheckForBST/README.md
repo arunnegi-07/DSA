@@ -61,6 +61,4 @@ tree as a parameter and returns true if the given binary tree is BST, else retur
 **Expected Auxiliary Space:** ```O(Height of the BST)```
 
 **Constraints:**
-<ul>
 <li>0 <= Number of edges <= 100000</li>
-</ul>
