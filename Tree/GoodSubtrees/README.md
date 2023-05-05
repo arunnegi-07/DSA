@@ -24,12 +24,12 @@ we can see all leaves <strong>2,2</strong> form good subtrees as number of disti
 <p><span style="font-size:18px"><strong>Your Task:</strong><br>
 You don't need to read input or print anything. Your task is to complete the function <strong>goodSubtrees</strong>() which takes <strong>root</strong> of binary tree&nbsp; and an integer&nbsp;<strong>k</strong> respectively and you have to&nbsp; return the <strong>count</strong> of&nbsp;good subtrees .</span></p>
 
-<p><span style="font-size:18px"><strong>Expected Time Complexity:</strong> O(n*k)<br>
-<strong>Expected Space Complexity:</strong> O(n+n*k), where n is the size of recursion stack.</span><br>
-<br>
-<span style="font-size:18px"><strong>Constraints</strong>:<br>
-1&lt;=n&lt;=10<sup>5</sup>&nbsp;(Number of nodes in binary Tree)<br>
-1&lt;=node.data&lt;=25<br>
-1&lt;=k&lt;=20<br>
-The sum of n over all test cases won't exceed 5*10<sup>5</sup></span></p>
-</div>
+**Expected Time Complexity:** ```O(n*k)```<br>
+**Expected Space Complexity:** ```O(n+n*k)```, where n is the size of recursion stack.
+
+**Constraints:**
+<li><code>1 <= n <= 10<sup>5</sup></code> (Number of nodes in binary Tree)</li>
+<li><code>1 <= node.data <= 25</code></li>
+<li><code>1 <= k <= 20</code></li>
+<li>The sum of n over all test cases won't exceed 5*10<sup>5</sup></li>
+
