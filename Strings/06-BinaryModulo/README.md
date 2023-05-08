@@ -33,7 +33,7 @@ You don't need to read input or print anything. Your task is to complete the fun
 string s and integer m as input parameters and returns the value of r as described above.
 ```
 
-**Expected Time Complexity:** ```O(N)```
+**Expected Time Complexity:** ```O(N)```<br>
 **Expected Auxiliary Space:** ```O(N)```
 
 **Constraints:**
