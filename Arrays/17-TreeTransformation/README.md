@@ -16,10 +16,19 @@ Output:
 
 Explanation: 
 Tree looks like:
-            
+                    0
+                  /   \
+                 1     2
+                / \
+               3   4
 Merge the edge 0 - 2 in one operation
 
 Our Tree will look like:
+                   0
+                  /   
+                 1    
+                / \
+               3   4  
 ```
 
 **Example 2:**
@@ -31,17 +40,28 @@ Output:
 2
 
 Explanation:
-Tree looks like:
-
-        
+Tree looks like: 
+                   0
+              /  /   \   \
+             1   2    3   4
+                / \
+               5   6
+              /
+             7
 
 Merge node 5 to 2, tree will look like
 
+                   0
+              /  /   \   \
+             1   2    3   4
+                / \
+               7   6
           
-
 and then 2 to 0, finally the tree will be:
 
-             
+                    0
+              /  /  \  \   \
+             1   7  6   3   4
 
 thus tree formed will be a star tree.
 ```
