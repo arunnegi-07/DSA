@@ -1,4 +1,4 @@
-## Inuition behind the given problem:
+## Intuition behind the given problem:
 
 ```
 As question is asking us to find maximum bowls which contains equal of cookies.
