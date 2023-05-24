@@ -41,10 +41,6 @@ int solve(int N, vector<int> p){
         // we will repeat same step to find connection for all the nodes.
     }
 
-    // for(auto i : connections){
-    //   cout << i << " ";
-    // }
-
     // Step 2:
     // Finding count of all the leaf nodes
 
