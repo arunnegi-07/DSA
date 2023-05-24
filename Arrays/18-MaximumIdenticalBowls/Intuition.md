@@ -1,7 +1,7 @@
 ## Intuition behind the given problem:
 
 ```
-As question is asking us to find maximum bowls which contains equal of cookies.
+As question is asking us to find maximum bowls which contains equal number of cookies.
     So, we just keep on dividing with Number of bowls (by decreasing it every time) to
     see for which 'N' it will be equally distributed.
 
