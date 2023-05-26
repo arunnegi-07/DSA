@@ -35,7 +35,7 @@ unique natural numbers.
 ```
 
 **Expected Time Complexity:** ```O(n2logn)```<br>
-**Expected Auxiliary Space:** ``O(n)```
+**Expected Auxiliary Space:** ```O(n)```
 
 **Constraints:**
 <li><code>1 <= n <= 10<sup>3</sup></code></li>
