@@ -34,7 +34,7 @@ as input parameters and returns the total number of ways n can be expressed as t
 unique natural numbers.
 ```
 
-**Expected Time Complexity:** ```O(n2logn)```<br>
+**Expected Time Complexity:** ```O(n^2logn)```<br>
 **Expected Auxiliary Space:** ```O(n)```
 
 **Constraints:**
