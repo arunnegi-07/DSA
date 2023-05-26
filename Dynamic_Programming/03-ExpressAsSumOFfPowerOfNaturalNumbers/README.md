@@ -29,7 +29,9 @@ Hence total 3 possibilities.
 
 **Your Task:**
 ```
-You don't need to read input or print anything. Complete the function numOfWays() which takes n and x as input parameters and returns the total number of ways n can be expressed as the sum of xth power of unique natural numbers.
+You don't need to read input or print anything. Complete the function numOfWays() which takes n and x 
+as input parameters and returns the total number of ways n can be expressed as the sum of xth power of
+unique natural numbers.
 ```
 
 **Expected Time Complexity:** ```O(n2logn)```<br>
