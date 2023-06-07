@@ -37,7 +37,7 @@ int main() {
 
     std::cout << "Prime numbers in the range 1 to " << n << " are: ";
     for (int prime : primes) { // Print the prime numbers
-        std::cout << prime << " ";~
+        std::cout << prime << " ";
     }
     std::cout << std::endl;
 
