@@ -5,20 +5,19 @@
 #include <iostream>
 #include <vector>
 
-void sieveOfEratosthenes(int n) {
+std::vector<int> sieveOfEratosthenes(int n) {
     // Create a boolean array "prime[0..n]" and initialize
     // all entries as true. A value in prime[i] will be
     // false if i is not a prime, and true otherwise.
-    std::vector<bool> prime(n + 1, true);
+    std::vector<bool> prime(n + 1, true); 
+    prime[0] = prime[1] = false; // 0 and 1 are not prime numbers
 
-    // 0 and 1 are not prime numbers, so set them as false
-    prime[0] = prime[1] = false;
+    std::vector<int> primes; // Vector to store prime numbers
 
-    // Iterate from 2 to sqrt(n) (inclusive) as any non-prime
-    // number <= sqrt(n) must have a prime factor greater than sqrt(n)
-    for (int p = 2; p * p <= n; ++p) {
-        // If prime[p] is not changed, then it is a prime
-        if (prime[p]) {
+    for (int p = 2; p <= n; ++p) { // Iterate from 2 to n
+        if (prime[p]) { // If p is prime
+            primes.push_back(p); // Add p to the primes vector
+
             // Update all multiples of p as non-prime
             for (int i = p * p; i <= n; i += p) {
                 prime[i] = false;
@@ -26,13 +25,7 @@ void sieveOfEratosthenes(int n) {
         }
     }
 
-    // Print all prime numbers
-    std::cout << "Prime numbers in the range 1 to " << n << " are: ";
-    for (int p = 2; p <= n; ++p) {
-        if (prime[p]) {
-            std::cout << p << " ";
-        }
-    }
+    return primes; // Return the vector of prime numbers
 }
 
 int main() {
@@ -40,7 +33,13 @@ int main() {
     std::cout << "Enter a number: ";
     std::cin >> n;
 
-    sieveOfEratosthenes(n);
+    std::vector<int> primes = sieveOfEratosthenes(n); // Find prime numbers up to n
+
+    std::cout << "Prime numbers in the range 1 to " << n << " are: ";
+    for (int prime : primes) { // Print the prime numbers
+        std::cout << prime << " ";~
+    }
+    std::cout << std::endl;
 
     return 0;
 }
