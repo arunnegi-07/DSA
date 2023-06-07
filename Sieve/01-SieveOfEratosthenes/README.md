@@ -32,7 +32,7 @@ Prime numbers less than equal to 35 are
 You don't need to read input or print anything. Your task is to complete the function sieveOfEratosthenes()
 which takes an integer N as an input parameter and return the list of prime numbers less than equal to N.
 ```
-**Expected Time Complexity:** ``O(NloglogN)```<br>
+**Expected Time Complexity:** ```O(NloglogN)```<br>
 **Expected Auxiliary Space:** ```O(N)```
 
 **Constraints:**
