@@ -1,3 +1,6 @@
+// Approach 1 : Optimized Approach --> Using Prefix Sum Method
+// TC : O(N + K)  SC : O(1)
+
 #include <iostream>
 
 // Function to update the array elements based on the given updates using prefix sum approach
