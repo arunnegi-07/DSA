@@ -37,5 +37,5 @@ takes the array A and its size N as input and returns the Maximum possible subse
 **Expected Auxiliary Space:** ```O(N)```
 
 **Constraints:**
-<li><code>2 ≤ N ≤ 10<sup>5</sup><code></li>
-<li><code>-10<sup>5</sup> ≤ A[i] ≤ 10<sup>5</sup><code></li>
+<li><code>2 ≤ N ≤ 10<sup>5</sup></code></li>
+<li><code> -10<sup>5</sup> ≤ A[i] ≤ 10<sup>5</sup></code></li>
