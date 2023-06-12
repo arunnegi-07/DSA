@@ -31,7 +31,7 @@ Complete the function knapSack() which takes maximum capacity W, weight array wt
 of items n as a parameter and returns the maximum possible value you can get.
 ```
 
-**Expected Time Complexity:** ```O(N*W)``<br>
+**Expected Time Complexity:** ```O(N*W)```<br>
 **Expected Auxiliary Space:** ```O(N*W)```
 
 **Constraints:**
