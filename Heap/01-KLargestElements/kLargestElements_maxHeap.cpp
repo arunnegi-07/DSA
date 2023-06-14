@@ -1,17 +1,24 @@
-// Approach 1 : BruteForce Method
-// TC : O(nlogn + k)  SC : O(k)
+// Approach 2 : Using maxHeap
 
 #include <bits/stdc++.h>
 using namespace std;
 
 vector<int> kLargest(int arr[], int n, int k) {
-    // Sort the array in descending order
-    sort(arr, arr + n, greater<int>());
+    priority_queue<int> maxHeap; // Create a max heap to store elements in descending order
 
-    // Create a result vector and copy the first K elements
-    vector<int> result(arr, arr + k);
+    // Insert all elements from the array into the max heap
+    for (int i = 0; i < n; i++) {
+        maxHeap.push(arr[i]);
+    }
 
-    return result;
+    vector<int> ans; // Create a vector to store the k largest elements
+    for (int i = 0; i < k; i++) {
+        int val = maxHeap.top(); // Get the current largest element from the max heap
+        maxHeap.pop(); // Remove the largest element from the max heap
+        ans.push_back(val); // Add the largest element to the result vector
+    }
+
+    return ans; // Return the vector containing the k largest elements
 }
 
 int main() {
@@ -39,3 +46,4 @@ int main() {
 
     return 0;
 }
+
