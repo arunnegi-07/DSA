@@ -1,4 +1,4 @@
-## Problem : K Largest Elements (Easy)
+## Problem : K Largest Elements (Medium)
 Given an array **Arr** of **N** positive integers and an integer **K**, find **K** largest elements from the array.  The output elements should be printed in decreasing order.
 
 **Example 1:**
