@@ -1,5 +1,5 @@
 // Approach 2 : Using maxHeap
-
+// TC : O(n*log n + k*log n)   SC : O(n) (for maxHeap)
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -7,11 +7,14 @@ vector<int> kLargest(int arr[], int n, int k) {
     priority_queue<int> maxHeap; // Create a max heap to store elements in descending order
 
     // Insert all elements from the array into the max heap
+    // it will take O(n*logn)
     for (int i = 0; i < n; i++) {
         maxHeap.push(arr[i]);
     }
-
+ 
     vector<int> ans; // Create a vector to store the k largest elements
+    
+    // It will take O(k*logn)
     for (int i = 0; i < k; i++) {
         int val = maxHeap.top(); // Get the current largest element from the max heap
         maxHeap.pop(); // Remove the largest element from the max heap
