@@ -31,7 +31,7 @@ You don't need to read input or print anything. Your task is to complete the fun
 string S as input and returns the longest palindromic substring of S.
 ```
 
-**Expected Time Complexity:** ```O(|S|²)```
+**Expected Time Complexity:** ```O(|S|²)```<br>
 **Expected Auxiliary Space:** ```O(1)```
 
 **Constraints:**
