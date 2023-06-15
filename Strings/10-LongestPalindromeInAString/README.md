@@ -27,7 +27,8 @@ starting index.
 
 **Your Task:**
 ```
-You don't need to read input or print anything. Your task is to complete the function longestPalin() which takes the string S as input and returns the longest palindromic substring of S.
+You don't need to read input or print anything. Your task is to complete the function longestPalin() which takes the 
+string S as input and returns the longest palindromic substring of S.
 ```
 
 **Expected Time Complexity:** ```O(|S|²)```
