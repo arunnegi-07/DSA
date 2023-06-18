@@ -38,7 +38,7 @@ which takes N and K as inputs and returns the last person to get the ticket.
 ```
 
 **Expected Time Complexity:** ```O(N)```<br>
-**Expected Space Complexity:** ```O(N)```
+**Expected Space Complexity:** ```O(N)```<br>
 Try to solve it using **O(1)** space complexity.
 
 **Constraints:**
