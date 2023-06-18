@@ -1,4 +1,4 @@
-// Approch 1 : Using Doubly Ended Queue i.e Deque
+// Approach 1 : Using Doubly Ended Queue i.e Deque
 //  TC : O(N)  SC : O(N)
 
 // Note : Please see ProblemExplaination file attached in order to get the problem more clearly as problem statement
