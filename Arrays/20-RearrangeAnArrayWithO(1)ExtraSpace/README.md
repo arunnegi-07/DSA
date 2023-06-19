@@ -1,7 +1,7 @@
 ## Problem : Rearrange an Array with O(1) Extra Space (Medium)
 Given an array **arr[]** of size **N** where every element is in the range from **0 to n-1**. Rearrange the given array so that the transformed array **arr<sup>T</sup>[i]** becomes **arr[arr[i]]**.
 
-**NOTE:** arr and arrT are both same variables, representing the array before and after transformation respectively.
+**NOTE:** arr and arr<sup>T</sup> are both same variables, representing the array before and after transformation respectively.
 
 **Example 1:**
 ```
