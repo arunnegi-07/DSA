@@ -30,7 +30,8 @@ how many matches he picks at first.
 
 **Your Task:**
 ```
-You don't need to read input or print anything. Your task is to complete the function matchGame() which takes an Integer N as input and returns the answer.
+You don't need to read input or print anything. Your task is to complete the function matchGame() which takes an Integer N
+as input and returns the answer.
 ```
 
 **Expected Time Complexity:**  ```O(1)```<br>
