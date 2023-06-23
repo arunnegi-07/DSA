@@ -16,9 +16,11 @@
     Let's,  tasks = {'A', 'A', 'A', 'A', 'A', 'A', 'B', 'C', 'D', 'E', 'F','G'}
             N = 12  K = 2
 
-        one possible order could be :  A  _  _  A  _  _  A  _ _  A  _ _  A _ _  A ==>  A  B  C  A  D  E  A  F  G  A  _  _  A _  _  A  
-                                                       
-                                                        ==> A  B  C  A  D  E  A  F  G  A  idle idle A idle  idle  A
+        one possible order could be :  A  _  _  A  _  _  A  _ _  A  _ _  A _ _  A
+
+                                       A  B  C  A  D  E  A  F  G  A  _  _  A _  _  A
+
+                                   A  B  C  A  D  E  A  F  G  A  idle idle A idle  idle  A
         
         Note :
         1. There is a reason why I have written "A _ _ A _ _ A _ _ A _ _ A _ _ A" in starting and then inserted other tasks by
@@ -35,9 +37,10 @@
             to perform all the task, so doing so will give us the minimum time.
 
         Now, let us analyze what we have done :
-                                         A -> B -> C -> A -> D -> E -> A -> F -> G -> A -> idle -> idle -> A -> idle -> idle -> A
 
-                As each of them takes '1' unit of time, therefore totalTime = 16 unit (which is minimum time)
+                       A -> B -> C -> A -> D -> E -> A -> F -> G -> A -> idle -> idle -> A -> idle -> idle -> A
+
+                       As each of them takes '1' unit of time, therefore totalTime = 16 unit (which is minimum time)
 
             Now, if you observe for this example, after we have taken 'A' which is repeated maximum number of times
             we reserved 'K' spaces between every 'A' for other remaining tasks to fit-in and if all those tasks are executed
@@ -46,16 +49,16 @@
                   1. All A's will take '6' units of time as they are '6' in numbers and that we know is nothing but maximum
                      occurred task (let's say 'maxi').
                   2. Between those A's, total 'maxi - 1' i.e '6 - 1' = 5 gaps are there and in each gap we know we have taken
-                      'K' spaces, 
-                                            therefore, total spaces = (maxi - 1) * K = (6 - 1) * 2 = 10 
-                                            i.e 10 unit of time is taken by all the task that are placed between those A's.
+                      'K' spaces,
+                                 therefore, total spaces = (maxi - 1) * K = (6 - 1) * 2 = 10 
+                                 i.e 10 unit of time is taken by all the task that are placed between those A's.
 
                     if we add  both of them we will get = 6 + 10
-                                                                             = 16 units (same as we have seen above from diagram)
+                                                        = 16 units (same as we have seen above from diagram)
         
         For now conclusion is : 
 
-                                                        least time taken = maxi + (maxi - 1) * K  units    
+                                    least time taken = maxi + (maxi - 1) * K  units    
         
         Note : This formula is not completed for now we have to see some more cases to complete it.
 ``` 
@@ -76,8 +79,8 @@
         for us to add something new to our formula (we will see that by doing some analysis) 
 
         one possible order could be :  A  _  _  A  _  _  A  _  _  A     (A= 0, B = 4, C = 2)
-                                                         
-                                                        A  B C  A  B  C  A  B _  A     (A = 0, B = 1, C = 0)
+
+                                       A  B C  A  B  C  A  B _  A     (A = 0, B = 1, C = 0)
 
             Now, we cannot put remaining 'B' in that space as we have to wait aleast 'K' unit, so CPU needs to be idle.
                                                 
@@ -85,14 +88,15 @@
 
             Now, remaining 'B' will come at the end :
 
-                                                        A  B C  A  B  C  A  B idle A B     (A = 0, B = 0, C = 0)
+                                                  A  B C  A  B  C  A  B idle A B     (A = 0, B = 0, C = 0)
 
 
         Now, let us analyze what we have done :
-                                                                 A -> B -> C -> A -> B -> C -> A -> B -> idle -> A -> B
+                                                  A -> B -> C -> A -> B -> C -> A -> B -> idle -> A -> B
 
                 As each of them takes '1' unit of time, therefore totalTime = 11 unit (which is minimum time)
       
+
         Now, if you observe for this example 2, then it is similar to example 1 expect that at the end we left with one 'B'
         let us see that :
 
@@ -102,18 +106,18 @@
 
                                                                 maxi + (maxi - 1) * K --> 4 + 3 * 2 = 10 unit 
                                                                 you can see inside braces total 10 tasks are there.
-                                    
+
                                         Now, how can we generalise that '1' unit of 'B' ?
-                                                for that please recall the thing which I have mentioned earlier that in example 2
-                                                there are total '2' such tasks are there which are having maximum frequency,
-                                                therefore,
-                                                                 if such tasks are let's say 'maxCount' is count of such tasks then total of
-                                                                 'maxCount - 1' tasks will always come to end and we just have to add
-                                                                 those units to our answer.
+                                           for that please recall the thing which I have mentioned earlier that in example 2
+                                           there are total '2' such tasks are there which are having maximum frequency,
+                                           therefore,
+                                                  if such tasks are let's say 'maxCount' is count of such tasks then total of
+                                                  'maxCount - 1' tasks will always come to end and we just have to add
+                                                  those units to our answer.
                                                                     
        Therefore, overall formula becomes :
 
-                                                        least time taken = maxi + (maxi - 1) * K  + (maxCount - 1) units    
+                                        least time taken = maxi + (maxi - 1) * K  + (maxCount - 1) units    
         
         Note : 
             To make it more clear just dry run it by yourself.
