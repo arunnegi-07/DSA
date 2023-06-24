@@ -12,7 +12,7 @@ int klengthpref(std::string arr[], int n, int k, std::string str) {
     // Slicing the prefix of length 'k' from str.
     std::string prefix = str.substr(0, k); // O(k)
 
-    int ans = 0;
+    int ans = 0; 
 
     // Iterate through each string in arr[]
     for (int i = 0; i < n; i++) { // O(n)
