@@ -45,7 +45,7 @@ count of strings in arr[] whose prefix of length k matches with the k length pre
 
 **Constraints:**
 <li>1 <= <b>n</b> <= 1000</li>
-<li>1 <= ><b>| arr[i] |</b>, <b>| str |</b> <= 1000</li>
+<li>1 <= <b>| arr[i] |</b>, <b>| str |</b> <= 1000</li>
 <li>1 <= <b>k</b> <= 1000</li>
 <li><b>arr[i]</b>, <b>str</b> must contain only lowercase English alphabets</li>
 
