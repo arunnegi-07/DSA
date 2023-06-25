@@ -45,7 +45,7 @@ arguments given in the function.
 The driver code prints the rows "$" separated. You have to just return list of rows, you do not have to worry about printing anything.
 
 **Expected Time Complexity:** ```O(row * col)```<br>
-**Expected Auxiliary Space: ** ```O(row * col)```
+**Expected Auxiliary Space:** ```O(row * col)```
 
 **Constraints:**
 <li>1 <= <b>row</b>,<b>col</b> <= 40</li>
