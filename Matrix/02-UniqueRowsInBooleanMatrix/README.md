@@ -35,10 +35,9 @@ Only unique row is $0 0 0 1 $
 
 **Your Task:**
 ```
-You only need to implement the given function uniqueRow(). The function takes three arguments the first
-argument is a matrix M and the next two arguments are row and col denoting the rows and columns of the
-matrix. The function should return the list of the unique row of the matrix. Do not read input, instead use the 
-arguments given in the function.
+You only need to implement the given function uniqueRow(). The function takes three arguments the first argument is a matrix M              
+and the next two arguments are row and col denoting the rows and columns of the matrix. The function should return the list of
+the unique row of the matrix. Do not read input, instead use the arguments given in the function.
 ```
 
 **Note:**
