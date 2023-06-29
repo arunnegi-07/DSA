@@ -1,6 +1,6 @@
-## Intuition 
+## Intuition :
 
-**Even though it is placed in the Hard category but it is moderate level of Problem**
+**Even though it is placed in the Hard category but it is moderate level of Problem.**
 
 **Few Things to Note :**
 1. The numbers that, when you repeatedly sum the squares of their digits, eventually result in 1 are known as **"happy numbers"**.
