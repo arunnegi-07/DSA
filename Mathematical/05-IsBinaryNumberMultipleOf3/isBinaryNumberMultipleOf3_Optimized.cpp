@@ -1,8 +1,7 @@
-// Approach 1 : BruteForce --> Just coverting Binary to decimal and then checking if it is divisible by 3
-// TC : O(|S|) SC :  O(1)
+// Approach 1 : Optimized --> By doing some Mathematical analysis
+// TC : O(|S|)  SC :  O(1)
 
-// Note : This Approach is fail for large test cases because none of the int, long long and double is able to hold the value
-//            after it is converted to decimal as it is too big.
+// Note : Refer to 'Intuition' file to understand this approach clearly.
 
 #include <iostream>
 using namespace std;
