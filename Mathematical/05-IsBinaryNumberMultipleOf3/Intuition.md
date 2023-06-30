@@ -55,8 +55,25 @@ concept of **divisibility** to handle this problem and do it without getting ove
 **Let us see one Example how this will work :**
 ```
     Let us take : 
-                                1 0 1 0 1 0 1 0 1   --> it's decimal equivalent is :   341 which is not divisible by 3
+                                1 0 1 0 1 0 1 0 1   --> it's decimal equivalent is :   341 which is not divisible by 3 
+                                                                                                               and remainder is '2'        
 
-                                Now, we know there is no need to 
+                                Now, we know there is no need to check for bit's which are zero because at the 
+                                end they will not contribute to the sum.
 
+                                So, we simply check if position is either 'even' or 'odd', as if it is 'odd' we will add '1'
+                                else we will add '2', we have discussed this above why.
+
+                                Now, 
+                                we will start seeing position from right end to left because we take power of 2's from right
+                                            
+                                                  1        0        1        0        1       0       1       0       1 
+                                                   |         |         |         |         |        |        |        |        |
+                                                  1        2        1        2        1       2       1       2       1     
+
+                                So we will add remainders only for those where bit is '1' :
+
+                                                (1 + 1 + 1 + 1 + 1 ) / 3  =  5 / 3  --> which is not divisible by 3 and remainder is '2'  
 ```
+
+So, just analyze it by taking some more examples by yourself and it will be more clear.
