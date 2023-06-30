@@ -15,10 +15,9 @@ int isDivisible(string s) {
     for (int i = s.length()-1; i >= 0; i--) {
         // if position is odd we add '1' to sum (I have started 'pos' from '0' and assuming it as odd)
         if (pos % 2 == 0) {
-            sum += s[i]*1;
-        // if position is even we add '2' to sum
+            sum += s[i]*1;  // multiplied S[i] because if it is '0' then nothing will be added or else '1' will be added
         } else {
-            sum += s[i]*2;
+            sum += s[i]*2;  // multiplied S[i] because if it is '0' then nothing will be added or else '2' will be added
         }
         // increasing position value
         pos++;
