@@ -1,6 +1,8 @@
 // Appraoch 2 : Using concept of bits and bit operations.
 // TC : O(logN)  SC : O(1)
 
+// Note : Refer to the Intuition file attached if want explaination behind the approach.
+
 #include <iostream>
 
 int setBits(int N) {
