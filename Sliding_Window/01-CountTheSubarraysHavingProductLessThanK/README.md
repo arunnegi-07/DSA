@@ -27,9 +27,8 @@ Output:
 
 **Your Task:**
 ```  
-You don't need to read input or print anything. Your task is to complete the function 
-countSubArrayProductLessThanK() which takes the array a[], its size n and an integer k 
-as inputs and returns the count of required subarrays.
+You don't need to read input or print anything. Your task is to complete the function countSubArrayProductLessThanK() 
+which takes the array a[], its size n and an integer k as inputs and returns the count of required subarrays.
 ```
 
 **Expected Time Complexity:** ```O(n)```<br>
