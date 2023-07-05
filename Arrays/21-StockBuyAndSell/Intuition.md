@@ -37,8 +37,7 @@ Let's consider the example input :
         therefore, final profit = 4 + 0 + 4 + 0 = 8 
 
 **You can also see diagram of how we are buying and selling :**
-<img src="https://ibb.co/TKzTPs4" alt="emmet-example1" border="0">
-
+<img src="https://i.ibb.co/1sHnRkr/1688561988288.jpg" alt="emmet-example1" border="0">
 
 **Detailed Explaination :**
 ```
