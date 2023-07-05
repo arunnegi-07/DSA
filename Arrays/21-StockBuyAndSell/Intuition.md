@@ -9,34 +9,35 @@ the maximum profit we can get by buying or selling the stocks.
 2. We will try to buy stock at minimum price and sell it at higher price possible till market goes down again.
 3. Also according to question at a time we can hold only single stock.
 
-**See below example :**
+**See below example :**<br>
+
 Let's consider the example input :  
         prices = {4, 8, 8, 7, 5, 6, 9, 6}   --> for 8 days
         
-1.  Intially we will buy and hold a stock when price is at '4'.
+1. Intially we will buy and hold a stock when price is at '4'.
 2. After that we will check next price until it is maximum, and we can see till 3rd day stock prices are gone maximum i.e 8,
-    but after that it fall to 7, therefore we will sell our stock on day 3, and earn a profit of :
+   but after that it fall to 7, therefore we will sell our stock on day 3, and earn a profit of:<br>
 
-                                profit = 8 - 4 = 4
+    <b>profit</b> = 8 - 4 = 4
 
-3. Now, as we sold the stock which we were holding now we can buy new stock i.e of price '7'.
-4. Now, as we proceed further we found that prices are falling down to '5', so we will sell that stock with price '7' at same 
-    price only because selling it at '5' will lead to loss :
-                                
-                                profit = 7 - 7 = 0
+4. Now, as we sold the stock which we were holding now we can buy new stock i.e of price '7'.
+5. Now, as we proceed further we found that prices are falling down to '5', so we will sell that stock with price '7' at same 
+   price only because selling it at '5' will lead to loss:<br>
 
-5. Now, we will buy stock at price '5'  and keep holding it until price of stocks are rising and we can see for day '6' and '7'
-    prices are increasing, so we will sell our stock of price '5' on day 7 at price '9' :
+   <b>profit</b> = 7 - 7 = 0
 
-                                profit = 9 - 5 = 4
+7. Now, we will buy stock at price '5'  and keep holding it until price of stocks are rising and we can see for day '6' and '7'
+   prices are increasing, so we will sell our stock of price '5' on day 7 at price '9':<br>
 
-6. Finally, on day '8' we will buy and sell stock at price '6' because after that no stocks are available as it is the last day :
+   <b>profit</b> = 9 - 5 = 4
 
-                                profit = 0 - 0 = 0
+8. Finally, on day '8' we will buy and sell stock at price '6' because after that no stocks are available as it is the last day:<br>
 
-        therefore, final profit = 4 + 0 + 4 + 0 = 8 
+   <b>profit</b> = 0 - 0 = 0<br>
+   therefore, **Final profit** = 4 + 0 + 4 + 0 = 8 
 
 **You can also see diagram of how we are buying and selling :**
+
 <img src="https://i.ibb.co/1sHnRkr/1688561988288.jpg" alt="emmet-example1" border="0">
 
 **Detailed Explaination :**
