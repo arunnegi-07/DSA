@@ -8,13 +8,13 @@ As BruteForce method was taking O(N³) time, so to reduce it to O(N²) we are us
     of **k**.
 2. In this approach we will use the fact that, if we want **sum** of **3** numbers (let's say **a**, **b**, **c**) to be
     **zero** then, if we have **sum**  of first two numbers as **a + b**, then third number **c** has to be **-(a + b)**
-    to make **sum** as **zero**.
-    **For Example :** sum of first two numbers is **-6** then third number should be -(-6) = **6**, then **sum** of those
-                                   triplets will be **zero**.
-3. So we will use **2** nested loops to get the values of **first** and **second** numbers and using them we will calulate
+    to make **sum** as **zero**.<br>
+    **For Example:**<br>
+    sum of first two numbers is **-6** then third number should be -(-6) = **6**, then **sum** of those triplets will be **zero**.
+4. So we will use **2** nested loops to get the values of **first** and **second** numbers and using them we will calulate
     the **third** as **-(first + second)**, but 
     how we are going know if this **third** really exists in given array ?
-4. So for that we will use a **unordered_set** to store **second** number in every traversal of **inner** loop, and if we 
+5. So for that we will use a **unordered_set** to store **second** number in every traversal of **inner** loop, and if we 
     find that calculated **third** number in our **Set**, then we will return **true** indicating we got the **triplet**, else
     we will store the **second** number in the **set** and continue checking other numbers.
 
