@@ -16,7 +16,7 @@ In this approach we will try to reduce the space complexity and reduce it to O(1
 
 4. **Checking the Triplet Sum:** We calculate the sum of the current triplet using arr[first] + arr[left] + arr[right]. 
     
-**Based on this sum, we have three possibilities :**
+**Based on this sum, we have three possibilities :** 
 ```
     1. If the sum is less than zero, it means the sum needs to be increased. Since the array is sorted, moving the 'left' pointer to
         the right will increase the sum.
