@@ -18,21 +18,21 @@ In this approach we will try to reduce the space complexity and reduce it to O(1
     
 **Based on this sum, we have three possibilities :** 
 ```
-    1. If the sum is less than zero, it means the sum needs to be increased. Since the array is sorted, moving the 'left' pointer to
-        the right will increase the sum.
+1. If the sum is less than zero, it means the sum needs to be increased. Since the array is sorted, moving the 'left' pointer to
+    the right will increase the sum.
   
-    2. If the sum is greater than zero, it means the sum needs to be decreased. Again, due to the sorted array, moving the right
-        pointer to the left will decrease the sum.
+2. If the sum is greater than zero, it means the sum needs to be decreased. Again, due to the sorted array, moving the right
+    pointer to the left will decrease the sum.
 
-    3. If the sum is equal to zero, we have found a triplet with a sum of zero, and we return true.
+3. If the sum is equal to zero, we have found a triplet with a sum of zero, and we return true.
     
-    Moving the Pointers: Depending on the sum, we manipulate the pointers as follows:
-        a. If the sum is less than zero, we increment the left pointer (left++).
-        b. If the sum is greater than zero, we decrement the right pointer (right--).
+Moving the Pointers: Depending on the sum, we manipulate the pointers as follows:
+    a. If the sum is less than zero, we increment the left pointer (left++).
+    b. If the sum is greater than zero, we decrement the right pointer (right--).
    
-    We repeat the process until the left pointer is less than the right pointer. This ensures that we explore all possible combinations
-    of elements.
-    If we exhaust all possible combinations without finding a triplet with a sum of zero, we return false.
+We repeat the process until the left pointer is less than the right pointer. This ensures that we explore all possible combinations
+of elements.
+If we exhaust all possible combinations without finding a triplet with a sum of zero, we return false.
 ```
 
 By using the two-pointer approach, we effectively narrow down the search space, by taking advantage of sorting the array. This approach optimizes the solution with a time complexity of O(n<sup>2</sup>) by eliminating the need for nested loops, resulting in an efficient solution to find triplets with a sum of zero.
