@@ -49,10 +49,10 @@ and whatever other questions coming in your mind, example will make it more clea
 
     Separating postive number with other number :
                 
-                Doing so our array will be updated as :
+            Doing so our array will be updated as :
 
-                                0       1       2       3       4       5       6       7   ---->  indices
-                               -----------------------------------------------                   
+                             0       1       2       3       4       5       6       7   ---->  indices
+                            -----------------------------------------------------------                   
                 arr[] =   {  3       1       4       5       2       -1     0       -3  } 
 
                 so, now the range in which we have to check for missing number is '0' to '4'.
@@ -70,9 +70,9 @@ and whatever other questions coming in your mind, example will make it more clea
             will multiply it with '-1'.
 
             Now,
-                           0       1       2       3       4       5       6       7   ---->  indices
-                          -----------------------------------------------                   
-            arr[] =   {  3       1      -4     5       2       -1     0       -3  } 
+                         0       1       2       3       4       5      6     7   ---->  indices
+                        -----------------------------------------------------------                   
+            arr[] =   {  3       1      -4       5       2      -1      0    -3  } 
                          
             But what it indicates and why we are doing so ?
                                         
@@ -92,9 +92,9 @@ and whatever other questions coming in your mind, example will make it more clea
             will multiply it with '-1'.
 
             Now,
-                           0        1       2       3       4       5       6       7   ---->  indices
-                          -----------------------------------------------                   
-            arr[] =   { -3       1      -4     5       2       -1     0       -3  } 
+                         0       1       2      3       4        5       6       7   ---->  indices
+                       ------------------------------------------------------------                   
+            arr[] =   { -3       1      -4      5       2       -1       0      -3  } 
                          
             which indicates that the value whose correct position is at index '0', which is 'index+1' = 0 + 1
             i.e '1' is present in the array.
@@ -114,9 +114,9 @@ and whatever other questions coming in your mind, example will make it more clea
             will multiply it with '-1'.
 
             Now,
-                           0        1       2       3       4       5       6       7   ---->  indices
-                          -----------------------------------------------                   
-            arr[] =   { -3       1      -4     -5       2      -1      0       -3  } 
+                         0       1       2      3       4       5       6       7   ---->  indices
+                        ------------------------------------------------------------                   
+            arr[] =   { -3       1      -4     -5       2      -1       0      -3  } 
                          
     for i = 3:
             Now, abs(arr[3]) -1 = abs(arr[3]) - 1 
@@ -127,8 +127,8 @@ and whatever other questions coming in your mind, example will make it more clea
             will multiply it with '-1'.
          
             Now,
-                           0        1       2       3       4       5       6       7   ---->  indices
-                          -----------------------------------------------                   
+                         0       1       2      3       4       5     6        7   ---->  indices
+                       -------------------------------------------------------------                   
             arr[] =   { -3       1      -4     -5      -2      -1     0       -3  } 
     
     for i = 4:
@@ -140,8 +140,8 @@ and whatever other questions coming in your mind, example will make it more clea
             will multiply it with '-1'.
          
             Now,
-                           0        1       2       3       4       5       6       7   ---->  indices
-                          -----------------------------------------------                   
+                         0       1       2      3       4       5     6        7   ---->  indices
+                       ------------------------------------------------------------                   
             arr[] =   { -3      -1      -4     -5      -2     -1      0       -3  } 
 
 ```
