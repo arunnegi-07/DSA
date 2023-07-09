@@ -15,7 +15,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-//Function to find the smallest positive number missing from the array.
+//Function to find the smallest positive number missing from the array. 
 int missingNumber(int arr[], int n) { 
     // In-place swapping to arrange positive numbers in their correct positions
     for (int i = 0; i < n; i++) {
