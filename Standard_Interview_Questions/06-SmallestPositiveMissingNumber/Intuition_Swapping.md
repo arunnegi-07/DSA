@@ -1,6 +1,6 @@
 ## Intuition :
 
-**Note :**Before coming to this approach please clear the previous approach as the concept behind this approach
+**Note:** Before coming to this approach please clear the previous approach as the concept behind this approach
 is totally similar to that one.
 
 **Here's a step-by-step intuition of the in-place swapping approach:**
