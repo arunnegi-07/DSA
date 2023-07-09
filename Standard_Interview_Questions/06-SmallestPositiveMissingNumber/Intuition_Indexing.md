@@ -167,3 +167,4 @@ and whatever other questions coming in your mind, example will make it more clea
 3. arr[] ={1, 1}
 4. arr[] = {-1, 3, 1, 4, 5, 2}
 5. arr[] = {1, 2, 2, 3, 5, 5, 6}
+6. arr[] = {1000000, 500000, 100, 10000, 5000}
