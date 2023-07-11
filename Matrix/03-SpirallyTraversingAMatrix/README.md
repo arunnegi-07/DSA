@@ -36,7 +36,7 @@ Applying same technique as shown above, output for the 2nd testcase will be
 **Your Task:**
 ```
 You dont need to read input or print anything. Complete the function spirallyTraverse() that takes matrix, 
-r and c as input parameters and returns a list of integers denoting the spiral traversal of matrix. **
+r and c as input parameters and returns a list of integers denoting the spiral traversal of matrix.
 ```
 
 **Expected Time Complexity:** ```O(r*c)```<br>
