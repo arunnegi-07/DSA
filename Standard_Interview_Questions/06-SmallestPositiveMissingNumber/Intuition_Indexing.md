@@ -161,7 +161,7 @@ and whatever other questions coming in your mind, example will make it more clea
                     answer for our example is '6'.
 ```
 
-**Note :**To make it more clear just dry run yourself for below provided sample examples:
+**Note:** To make it more clear just dry run yourself for below provided sample examples:
 1. arr[] = {1, -3, 0, 1, -4, 3, 5, 2}
 2. arr[] = {1, 3, 1, 4, 5, 2}
 3. arr[] ={1, 1}
