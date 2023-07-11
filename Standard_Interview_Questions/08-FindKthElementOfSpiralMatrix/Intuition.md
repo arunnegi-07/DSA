@@ -14,8 +14,8 @@ You can see the diagram below, the order in which we are traversing our matrix :
 **Note :**
 1. The stopping condition is : **rowStart <= rowEnd && colStart <= colEnd**.
 2. But apart from that when given matrix is a **non-square** matrix then before doing the **3<sup>rd<sup>** step **i.e**
-    traversing the **bottom row** we have to check if  **rowStart <= rowEnd** because not doing so will lead to unnecessary
-    traversals.
+    traversing the **bottom row** we have to check if  **rowStart <=  rowEnd** because not doing so will lead to unnecessary
+    traversals.  
 3. Similarly, before **4<sup>th<sup>** step **i.e** traversing the **leftmost column** we must have to check if **colStart <= colEnd**.
 
 After applying all these conditions and repeating those **4 steps** this approach will traverse any **square** or **non-sqaure** matrix **spirally** till **k** times and return that value.
