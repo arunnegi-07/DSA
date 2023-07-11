@@ -10,7 +10,7 @@ Finally this whole thing will be repeated again and again until the stopping con
 
 You can see the diagram below, the order in which we are traversing our matrix :
 
-<img src="https://i.ibb.co/N2VsrHS/1689095279105.jpg" alt="matrix-example" border="0">
+<img src="https://i.ibb.co/N2VsrHS/1689095279105.jpg" alt="1689095279105" border="0">
 
 **Note :**
 1. The stopping condition is : **rowStart <= rowEnd && colStart <= colEnd**.
