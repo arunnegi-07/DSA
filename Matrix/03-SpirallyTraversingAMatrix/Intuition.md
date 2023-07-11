@@ -4,7 +4,7 @@ Approach is very simple just like traversing a Matrix, but instead of traversing
 1. First we will traverse the **top** row.
 2. Second we will traverse the **rightmost** column.
 3. After that, we will traverse the **bottom** row.
-4. Lastly, we will traverse the **leftmost** column.
+4. Lastly, we will traverse the **leftmost** column.<br>
 Finally this whole thing will be repeated again and again until the stopping condition was met and this will form a spiral.
 
 
