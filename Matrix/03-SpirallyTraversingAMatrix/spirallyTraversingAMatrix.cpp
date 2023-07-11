@@ -1,4 +1,4 @@
-// TC : O(M*N)  SC : O(1)
+// TC : O(M*N)  SC : O(M*N)
 
 #include <iostream>
 #include <vector>
