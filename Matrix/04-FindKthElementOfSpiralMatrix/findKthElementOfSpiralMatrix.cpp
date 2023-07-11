@@ -1,4 +1,7 @@
-// TC : O(M*N)  SC : O(1)
+/* TC : O(M*N)  SC : O(1)
+    Note : This problem is exact similar to previous one, but in that instead of traversing the entire matrix spirally we will just traverse till
+    'count' become equal to 'k', and then we will return back that value we are at .
+                                                                                                                                                                                                                                                                                    */
 
 #include <iostream>
 using namespace std;
