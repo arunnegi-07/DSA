@@ -11,7 +11,7 @@ const int MAX = 100;
 int findK(int matrix[MAX][MAX], int n, int m, int k) {
     int rowStart = 0, rowEnd = n - 1;
     int colStart = 0, colEnd = m - 1;
-    int count = 0;
+    int count = 0;   
 
     while (rowStart <= rowEnd && colStart <= colEnd) {
         // Traversing top row
