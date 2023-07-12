@@ -21,11 +21,6 @@ long long power(long long N, long long R){
         return (res * N) % MOD;
 }
 
-int pow(int N, int R) {
-    // called helper function
-    return power(N, R);
-}
-
 int main() {
     // Sample input 1
     int N1 = 2; // Number
