@@ -24,7 +24,7 @@ arr = [2, 2, 5, 10, 1, 2, 10, 5, 10, 2]
 Output:
 true
 
-Explanation:
+Explanation:       
 Number of 1’s -> 1
 Number of 2’s -> 4
 Number of 5’s -> 2
