@@ -11,7 +11,7 @@ struct Node {
 
     Node(int val) : data(val), next(nullptr) {}
 };
-
+    
 // Function to remove duplicates from an unsorted linked list
 Node* removeDuplicates(Node* head) {
     // Create a frequency map to keep track of node data occurrences
