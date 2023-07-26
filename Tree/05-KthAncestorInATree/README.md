@@ -14,7 +14,7 @@ K = 2 Node = 4
      /   \
    4      5
    
-Output: 1
+Output: 1            
 
 Explanation:
 Since, K is 2 and node is 4, so we first need to locate the node and look k times its ancestors.
