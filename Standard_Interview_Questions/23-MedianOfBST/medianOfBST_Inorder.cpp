@@ -26,7 +26,7 @@ void inOrder(Node* root, vector<int>& sortedNodes) {
 // Function to find the median of the BST
 float findMedian(Node* root) {
     if (root == nullptr) {
-        return 0.0;
+        return 0.0;  
     }
 
     vector<int> sortedNodes;
