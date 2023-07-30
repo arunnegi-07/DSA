@@ -1,51 +1,39 @@
-## Problem : Inorder Successor in BST (Easy)
-Given a BST, and a reference to a **Node x** in the BST. Find the Inorder Successor of the given node in the BST.
- 
+## Intuition 
+    
+Intuition behind this optimized solution is that, if we traverse our BST inorder then we get the sorted order.
 
-**Example 1:**
+**Example :**
 ```
-Input:
-      2
-    /   \
-   1     3
-K(data of x) = 2
+For example we have :
 
-Output: 3 
+                                      20
+                                     /   \
+                                   8     22
+                                  / \
+                                4   12
+                                    /   \
+                                  10   14    
+    
+    inorder traversal is : 4  8  10  12  14  20  22
 
-Explanation: 
-Inorder traversal : 1 2 3 
-Hence, inorder successor of 2 is 3.
-```
+    let's say given : x = 8 then clearly successive inorder value is 10 as it comes next to it.
 
-**Example 2:**
-```
-Input:
-             20
-            /   \
-           8     22
-          / \
-         4   12
-            /  \
-           10   14
-K(data of x) = 8
+    so it makes it clear that inorder successor of the 'Node x' will always be the leftmost value of
+    all the nodes present on it's right i.e
 
-Output: 10
+                        x
+                    4   8  ( 10  12  14  20  22 )   --> '10' is leftmost of all values on right.
 
-Explanation:
-Inorder traversal: 4 8 10 12 14 20 22
-Hence, successor of 8 is 10.
-```
+    Now, how can we use property of BST to get this value :
 
-**Your Task:**
-```
-You don't need to read input or print anything. Your task is to complete the function 
-inOrderSuccessor(). This function takes the root node and the reference node as argument
-and returns the node that is inOrder successor of the reference node. If there is no successor, 
-return null value.
+    So, we simply start from 'root' and check :
+         a. if current position value is greater than value of Node 'x' that means  it could be our answer
+            (not sure at that point) so we will store it for now and move our pointer to left side (i.e curr -> left)
+            because  now potential sucessor will be present on the left sub tree as current value is itself greater
+            than 'x' so we need to come on left  so that we will be able to get the leftmost value which is greater to Node 'x'.
+         b. but, if current position value is smaller or equal move to right (i.e curr -> right) because there is no chance to
+            find the successor on left sub tree as it will be greater than 'x'.
+         c. Repeat this step until 'curr' not become 'nullptr'.     
 ```
 
-**Expected Time Complexity:** ```O(Height of the BST)```<br>
-**Expected Auxiliary Space:** ```O(1)```
-
-**Constraints:**
-<li>1 <= <b>N</b> <= 10<sup>5</sup>, where N is number of nodes</li>
+**Note :** Just dry run this for 2-3 sample examples it will become more Intuitive.
