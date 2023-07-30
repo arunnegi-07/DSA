@@ -1,8 +1,8 @@
 // Approach 2 : Optimized --> Used property of BST 
 // TC : O(N)  SC : O(1)
-    
-                                                                        
-#include <iostream>                                
+
+
+#include <iostream>                          
 using namespace std;
 
 // Definition of a Node in the BST
