@@ -15,7 +15,7 @@ struct Node {
 };
 
 // Function to perform inorder traversal of the BST and store node values in a vector
-void inOrder(Node* root, vector<Node*>& sortedNodes) {
+void inOrder(Node* root, vector<Node*>& sortedNodes) {  
     if (root == nullptr)
         return;
 
