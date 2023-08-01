@@ -1,4 +1,4 @@
-// TC :  O(V+E  SC : O(V)  where, V : no. of vertices  E : no. of edges
+// TC :  O(V+E)  SC : O(V)  where, V : no. of vertices  E : no. of edges
  
 #include <iostream>
 #include <vector>
