@@ -10,7 +10,7 @@
     any number is not present at it's correct position it is missing and first such number found is the smallest because
     there may be more than one numbers missing.
     
-    Note : Refer to 'Intuition_Swapping' file for more explaination.
+    Note : Refer to 'Intuition_Swapping' file for more explanation.
                                                                                                                                                                                                                                                                                 */
 #include <bits/stdc++.h>
 using namespace std;
