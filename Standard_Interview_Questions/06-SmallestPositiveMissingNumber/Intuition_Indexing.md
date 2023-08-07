@@ -1,6 +1,6 @@
 ## Intuition :
 
-**Indexing:** In Indexing approach we will take advantage of the property of the array indices to mark positive numbers as negative in order to identify the missing positive number. By marking the elements, we can distinguish between the presence and absence of positive numbers. This approach works effectively when each positive number appears at most once in the array.
+**Indexing:** In Indexing approach we will take advantage of the property of the array indices, to mark positive numbers as negative in order to identify the missing positive number. By marking the elements, we can distinguish between the presence and absence of positive numbers. This approach works effectively when each positive number appears at most once in the array(Drawback of this approach).
 You will get how it is working once we take one sample example and understand this approach over it.
 
 **Before that few points you need to understand :**
@@ -21,7 +21,7 @@ You will get how it is working once we take one sample example and understand th
                 are in the array then definitely that number is 'N+1'.
 
 2. Before performing actual indexing method over our array we first separate all the postive numbers towards left 
-    and side and remaining negative numbers including '0' to the right side of the array, just by using a single loop 
+    side and remaining negative numbers including '0' to the right side of the array, just by using a single loop 
     which will take O(N) time.
 
 3. Now we will traverse our array from index '0' till the index where only positive numbers are present, and keep 
@@ -51,9 +51,13 @@ and whatever other questions coming in your mind, example will make it more clea
                 
             Doing so our array will be updated as :
 
-                             0       1       2       3       4       5       6       7   ---->  indices
+                                0       1       2       3       4       5       6       7   ---->  indices
                             -----------------------------------------------------------                   
-                arr[] =   {  3       1       4       5       2       -1     0       -3  } 
+                arr[] =   {  3       1       4       5       2       -1     0       -3  }                
+                
+                Note : Make sure it is separated not sorted, that's why 'positive' number are on left 
+                           but internally they are unsorted and same for the second group of '0' and
+                           negative numbers. (Refer to code of this part to see how they are separated).
 
                 so, now the range in which we have to check for missing number is '0' to '4'.
 ```
@@ -140,9 +144,9 @@ and whatever other questions coming in your mind, example will make it more clea
             will multiply it with '-1'.
          
             Now,
-                         0       1       2      3       4       5     6        7   ---->  indices
+                            0        1       2       3        4       5      6        7   ---->  indices
                        ------------------------------------------------------------                   
-            arr[] =   { -3      -1      -4     -5      -2     -1      0       -3  } 
+            arr[] =   { -3      -1      -4     -5      -2      -1      0       -3  } 
 
 ```
 
@@ -153,7 +157,7 @@ and whatever other questions coming in your mind, example will make it more clea
     whose correct positions are from index '0' to '4' are already present inside the array.
 
     therefore, the smallest positive integer which is missing is :
-                if we assume 'p' as the index from where the next separation was starting 
+                if we assume 'p' as the index from where the next separation is starting 
                 that is in our case index '5', 
                 then the smallest positive number missing is : p + 1 = 5 +1 = '6'.
     
