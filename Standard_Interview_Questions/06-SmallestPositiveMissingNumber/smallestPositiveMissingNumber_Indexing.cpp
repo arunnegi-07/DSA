@@ -5,7 +5,7 @@
     'negative numbers' (because our concern is only for positive numbers) and after that we are using indexing method
     to get the smallest missing number.
 
-    Note : Refer to 'Intuition_Indexing' file attached, to get the clear explaination behind this approach.
+    Note : Refer to 'Intuition_Indexing' file attached, to get the clear explanation behind this approach.
                                                                                                                                                                                                                                                                                    */    
 
 #include <bits/stdc++.h>
