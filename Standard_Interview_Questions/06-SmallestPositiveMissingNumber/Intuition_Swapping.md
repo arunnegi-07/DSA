@@ -4,7 +4,7 @@
 is totally similar to that one.
 
 **Here's a step-by-step intuition of the in-place swapping approach:**
-1. Iterate through the array and for each element **arr[i]**, swap it with **arr[arr[i] - 1]** if **arr[i]** is positive and less
+1. Iterate through the array and for each element **arr[i]**, swap it with **arr[arr[i] - 1]** , if **arr[i]** is positive and less
     than or equal to **N**. This swapping step aims to place each positive number at its correct index, if possible.
 
 2. Repeat this swapping process until all positive numbers in the array are at their correct positions, i.e. **arr[i]** equals **i+1** 
