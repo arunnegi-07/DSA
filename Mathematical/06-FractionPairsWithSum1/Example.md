@@ -19,6 +19,10 @@
             Let's see what final Map will look like then it become more clear.
 ```
 
+<p align="center">
+    <img src="https://files.catbox.moe/xyjibq.jpg" height="550" width="800">
+</p>
+
 ```
     Above is the final result of the Map, which is keep on forming as we keep on checking for
     each possibilities, and
