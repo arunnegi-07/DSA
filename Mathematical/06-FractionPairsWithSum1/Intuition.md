@@ -11,7 +11,7 @@ If we take example what we have in <b>2 Sum</b> :
   We have, arr = [1, 4, 2, 4, 6, 5]   target = 6
    and we have to return either the pairs which sum equal to target or we just need to
    return the respective indices of those pairs.
-
+   
    Like here, (4, 2) (2,4) and (1,5)  are the pairs having sum equal 'target' i.e 6
 
    So, in this Problem we simply take, one value 4 (let's say) and to find it's another pair we 
