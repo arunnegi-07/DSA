@@ -6,7 +6,7 @@
 
 const int MOD = 1e9 + 7;
 
-// Function to calculate the Nth Fibonacci number modulo MOD using tabulation
+// Function to calculate the Nth Fibonacci number using tabulation
 int nthFibonacci(int n) {
     // Base cases: If n is 0 or 1, return n
     if (n < 2)
@@ -33,12 +33,12 @@ int main() {
     // Example input 1
     int input1 = 10;
     int result1 = nthFibonacci(input1);
-    std::cout << "Fibonacci(" << input1 << ") modulo " << MOD << " = " << result1 << std::endl;
+    std::cout << "Fibonacci(" << input1 << ") modulo " << " = " << result1 << std::endl;
 
     // Example input 2
     int input2 = 20;
     int result2 = nthFibonacci(input2);
-    std::cout << "Fibonacci(" << input2 << ") modulo " << MOD << " = " << result2 << std::endl;
+    std::cout << "Fibonacci(" << input2 << ") modulo " << " = " << result2 << std::endl;
 
     return 0;
 }
