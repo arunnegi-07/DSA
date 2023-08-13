@@ -2,7 +2,7 @@
 // TC : O(N*logN)  SC : O(N)
 
 #include <bits/stdc++.h>
-using namespace std;
+using namespace std;  
 
 // Function to find the length of the longest increasing subsequence.
 int longestSubsequence(int N, int a[]) {  
