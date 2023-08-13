@@ -5,7 +5,7 @@
 using namespace std;
 
 // Define a constant for the modulo value
-const int MOD = 1e7;
+const int MOD = 1e9 +7;
 
 // Recursive function to calculate the Nth Fibonacci number
 int f(int n) {
