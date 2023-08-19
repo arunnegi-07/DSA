@@ -29,7 +29,7 @@ You don't need to read input or print anything. Complete the function factorial(
 N as input parameter and returns a list of integers denoting the digits that make up the factorial of N.
 ```
 
-**Expected Time Complexity :** ```O(N2)```<br>
+**Expected Time Complexity :** ```O(N*N)```<br>
 **Expected Auxilliary Space :** ```O(1)```
 
 **Constraints:**
