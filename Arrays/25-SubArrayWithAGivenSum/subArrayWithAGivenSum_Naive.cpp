@@ -5,9 +5,10 @@
 
 #include <iostream>
 #include <vector>
+using namespace std;
 
-std::vector<int> subarraySum(int arr[], int N, int S) {
-    std::vector<int> result;
+vector<int> subarraySum(vector<int> arr, int N, int S) {
+    vector<int> result;
 
     // Iterate through each possible starting index.
     for (int start = 0; start < N; start++) {
@@ -34,14 +35,14 @@ std::vector<int> subarraySum(int arr[], int N, int S) {
 int main() {
     int N = 5;
     int S = 12;
-    int A[] = {1, 2, 3, 7, 5};
+    vector<int> A = {1, 2, 3, 7, 5};
 
-    std::vector<int> indices = subarraySum(A, N, S);
+    vector<int> indices = subarraySum(A, N, S);
 
     if (indices[0] == -1) {
-        std::cout << "No subarray found with sum " << S << std::endl;
+        cout << "No subarray found with sum " << S << std::endl;
     } else {
-        std::cout << "Subarray found from index " << indices[0] << " to " << indices[1] << std::endl;
+        cout << "Subarray found from index " << indices[0] << " to " << indices[1] << std::endl;
     }
 
     return 0;
