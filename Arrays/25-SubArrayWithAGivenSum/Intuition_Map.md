@@ -155,6 +155,6 @@ Let's take :
 
 
 Dry run the approach on your own on below examples to make above point more clear as well as to know why that initial
-**(0,0)** was necessary to put :
+**(0,0)** was necessary to put :  
 1. A[] = { 1  2  3  7  5 }  and S = 7
 2. A[] = {1,2,3,4,5,6,7,8,9,10} and S = 15
