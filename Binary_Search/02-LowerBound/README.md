@@ -1,4 +1,4 @@
-## Lower Bound (Easy)
+## Problem : Lower Bound (Easy)
 You are given  an array **arr** sorted in non-decreasing order and a number **x**.
 
 You must return the index of lower bound of **x**.
