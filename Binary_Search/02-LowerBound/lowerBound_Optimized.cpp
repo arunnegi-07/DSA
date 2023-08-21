@@ -11,7 +11,7 @@ int lowerBound(vector<int> arr, int n, int x) {
 
     while (low <= high) {
         int mid = low + (high - low) / 2; // Calculate the middle index
-
+  
         if (arr[mid] >= x) { // If the middle element is greater than or equal to 'x'
             ans = mid; // Update ans to the current index
             high = mid - 1; // Move to the left half to search for a smaller index
