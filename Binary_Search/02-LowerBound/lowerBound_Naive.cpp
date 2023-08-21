@@ -2,7 +2,7 @@
 // TC : O(N)  SC : O(1)
 
 #include <iostream>
-#include <vector>
+#include <vector>  
 
 // Function to find the lower bound of 'x' in a sorted vector 'arr'
 int lowerBound(std::vector<int> arr, int n, int x) {
