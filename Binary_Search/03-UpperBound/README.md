@@ -22,7 +22,7 @@ You must return the index of upper bound of **x**.
 
 **Example 1 :**
 ```         
-                             0  1  2  3  4  5  --> indices            
+                          0  1  2  3  4  5  --> indices            
                     arr = 1  2  2  3  3  5
                     x = 2
         
@@ -37,7 +37,7 @@ You must return the index of upper bound of **x**.
 
 **Example 2 :**
 ```
-                         0  1  2  3   4    5  --> indices            
+                      0  1  2  3   4   5  --> indices            
                 arr = 4  6  7  9  10  20
                 x = 8
     
