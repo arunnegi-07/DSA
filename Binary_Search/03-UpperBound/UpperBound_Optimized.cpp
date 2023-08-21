@@ -1,6 +1,6 @@
 // Approach 2 : Used concept of Binary Search to tream down search space every time to half.
 // TC : O(logN)  SC : O(1)
-
+   
 #include <bits/stdc++.h>
 using namespace std;
 
