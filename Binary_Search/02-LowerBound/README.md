@@ -11,6 +11,9 @@ You must return the index of lower bound of **x**.
                                     i.e arr[idx] >= x
 
             then 'idx' is the lower_bound of 'x'
+        
+        Overall : lower_bound of 'x' is the value which is smallest among all the values which are greater than 'x'
+                      and we can aslo consiider value which is equal to 'x'.   
 ```
 
 **Example 1 :**
