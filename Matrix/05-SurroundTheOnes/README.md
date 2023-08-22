@@ -12,14 +12,10 @@ Output:
 1
 
 Explanation: 
-1 that occurs in the 1st row and 1st column, has 3 surrounding elements 0,1 and 1. 
-The occurrence of zero is odd. 
-1 that occurs in 2nd row and 1st column has 5 surrounding elements 1,0,1,1 and 0. 
-The occurrence of zero is even. 
-1 that occurs in 2nd row and 2nd column has 8 surrounding elements. 
-The occurrence of 0 is odd. 
-Similarly, for the 1 that occurs in 3rd row and 2nd column, the occurrence of zero 
-in it's 5 surrounding elements is odd. 
+1 that occurs in the 1st row and 1st column, has 3 surrounding elements 0,1 and 1.The occurrence of zero is odd. 
+1 that occurs in 2nd row and 1st column has 5 surrounding elements 1,0,1,1 and 0.The occurrence of zero is even. 
+1 that occurs in 2nd row and 2nd column has 8 surrounding elements.The occurrence of 0 is odd. 
+Similarly, for the 1 that occurs in 3rd row and 2nd column, the occurrence of zero in it's 5 surrounding elements is odd. 
 Hence, the output is 1.
 ```
 
@@ -32,17 +28,15 @@ Output:
 0
 
 Explanation: 
-There is only 1 element in the matrix. Hence, it has no surroundings, 
-so it's count for even 0's is 0 for the whole matrix. 
+There is only 1 element in the matrix. Hence, it has no surroundings,so it's count for even 0's is 0 for the whole matrix. 
 0 is even but we want occurrence of a zero in the surrounding at least once. 
 Hence, output is 0.
 ```
 
 **Your Task:**
 ```
-You don't need to read or print anything. Your task is to complete the function Count() 
-which takes the matrix as input parameter and returns the number of 1's which are surrounded 
-by even number of 0's.
+You don't need to read or print anything. Your task is to complete the function Count() which takes the matrix as input 
+parameter and returns the number of 1's which are surrounded by even number of 0's.
 ```
 
 **Expected Time Complexity:** ```O(n*m)```<br>
