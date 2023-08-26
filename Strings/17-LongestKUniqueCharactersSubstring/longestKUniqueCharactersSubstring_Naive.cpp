@@ -1,4 +1,4 @@
-// Approach : Naive Approach --> Checking all Substrings
+// Approach : Naive Approach --> Checking all Substrings and finding the maxLength
 // TC : O(|S|*|S|)  SC : O(|S|)
 
 #include <buts/stdc++.h>
