@@ -1,6 +1,6 @@
 // Naive Approach --> Taking each vertex and checking if using it we can reach all by going in-depth using DFS
 // TC : O(V*V)  SC : O(V)
-// This approach will give TLE for large inputs.
+// This approach will give TLE for large input cases.
 
 #include <bits/stdc++.h>
 using namespace std;
