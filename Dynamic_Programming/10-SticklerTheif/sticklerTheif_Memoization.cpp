@@ -2,7 +2,7 @@
 // TC : O(N)  SC : O(N)
 
 #include <bits/stdc++.h>
-using namespace std;
+using namespace std;  
 
 //Function to find the maximum money the thief can get.
 int maxMoney(int arr[], int n, int currentIndex, unordered_map<int, int>& memo) {
