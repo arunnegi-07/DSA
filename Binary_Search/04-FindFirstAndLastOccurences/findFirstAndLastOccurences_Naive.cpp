@@ -2,7 +2,7 @@
 // TC : O(logN)  SC : O(1)
 
 #include <iostream>
-#include <vector>
+#include <vector> 
 using namespace std;
 
 vector<int> findOccurrences(int arr[], int n, int x) {
